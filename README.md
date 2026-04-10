@@ -239,11 +239,6 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 
 <div align="center">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=NotNull92&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotNull92&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </div>
 
 ---
