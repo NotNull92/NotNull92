@@ -1,37 +1,48 @@
 <div align="center">
 
-<!-- Typing SVG -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:0D1117&height=120&section=header&text=&fontSize=0" width="100%" />
+
 <a href="https://github.com/NotNull92">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Unity+Game+Developer;Indie+Alchemist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Youngjun+Ji;Unity+Game+Developer;Indie+Alchemist" alt="Typing SVG" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Experience-6%2B%20Years-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
+<img src="https://img.shields.io/badge/Revenue-%E2%82%A940B%2B%20Annual-22C55E?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Domain-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-> **Youngjun Ji** — Seoul, Korea 🇰🇷 | Ex-Sydney, Ex-Brisbane, Ex-Gold Coast, Ex-Cleveland, Australia 🇦🇺
+> **Youngjun Ji** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
 
-- 🎮 **Unity/C# Developer** with 6+ years of professional experience
-- 🏢 Currently on a **live-service mobile MMORPG** team — content dev, UI programming, network protocol implementation
-- 💰 Contributed to projects generating **₩4B+ monthly revenue** (Bluepotion Games, Vanco)
-- 🕹️ Building **[NoMoreRolls](https://github.com/NotNull92)** — a dice-based roguelike with moral choice mechanics
-- 🎯 **Goal:** Achieve financial independence through solo indie game & app development
+Unity/C# Developer with **6+ years** of professional experience in live-service mobile MMORPG development. Contributed to projects generating **₩40B+ annual revenue** (Bluepotion Games, Vanco). Specialized in content development, UI/UX programming, and network protocol implementation for large-scale production environments.
+
+- 🏢 **Current Role** — Content & Systems Developer on a **live-service mobile MMORPG** (6th year)
+- 🎲 **Solo Project** — Building [NoMoreRolls](https://github.com/NotNull92), a dice-based roguelike with moral choice mechanics
+- 🎯 **Goal** — Achieve financial independence through solo indie game & app development
 - 🏋️ When not coding — weight training, anime, ETF investing, and gaming
 
 ---
 
-## ⚔️ Career Highlights
+## Professional Experience
 
 <table>
 <tr>
-<td width="50%">
+<th width="33%" align="center">🏰 Live-Service MMORPG</th>
+<th width="33%" align="center">💰 Revenue Impact</th>
+<th width="33%" align="center">🚀 Core Competencies</th>
+</tr>
+<tr>
+<td valign="top">
 
-### 🏰 Live-Service MMORPG
-**6th Year | Content & Systems Developer**
+**6th Year | Content & Systems**
 
 - Content development for large-scale mobile MMORPG
 - UI/UX programming & system architecture
@@ -39,15 +50,24 @@
 - Real-time live operations at scale
 
 </td>
-<td width="50%">
+<td valign="top">
 
-### 💎 Revenue Impact
-**₩400M+ Monthly Revenue Projects**
+**₩40B+ Annual Revenue**
 
 - Bluepotion Games — shipped & maintained
 - Vanco — shipped & maintained
-- Experience with monetization systems and live-ops pipelines
+- Monetization systems & live-ops pipelines
 - Cross-functional collaboration in large dev teams
+
+</td>
+<td valign="top">
+
+**Production-Grade Skills**
+
+- Unity/C# architecture & optimization
+- Live-service operations & hotfix pipelines
+- Complex UI systems & state management
+- Network protocol implementation
 
 </td>
 </tr>
@@ -55,7 +75,9 @@
 
 ---
 
-## 🎮 Projects — NoMoreRolls
+## Projects
+
+### NoMoreRolls — In Development
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Unity-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
@@ -125,7 +147,7 @@
 
 ---
 
-### 🤖 Mental Robo — *Released*
+### Mental Robo — Released
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Unity-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
@@ -143,7 +165,7 @@
 <summary><b>⚔️ Systems</b></summary>
 <br>
 
-- **Rhythm Input** — Timing-window based directional key judgment
+- **Rhythm Input** — Timing window based directional key judgment
 - **Joke Topic Branching** — 3 choices: trendy jokes, dad jokes, bathroom humor
 - **Audience AI** — Per-topic affinity calculation + real-time score feedback
 - **Crowd Reading Puzzle** — Analyze audience profiles ("40-something males", "mostly managers") → strategic topic selection
@@ -179,11 +201,12 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
 <th align="center">Core</th>
+<th align="center">Libraries</th>
 <th align="center">Exploring</th>
 <th align="center">Platforms</th>
 </tr>
@@ -192,6 +215,13 @@
 
 ![Unity](https://img.shields.io/badge/Unity-000?style=for-the-badge&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+
+</td>
+<td align="center">
+
+![DOTween](https://img.shields.io/badge/DOTween-E84C3D?style=for-the-badge)
+![Odin](https://img.shields.io/badge/Odin_Inspector-1E90FF?style=for-the-badge)
+![UniTask](https://img.shields.io/badge/UniTask-6C5CE7?style=for-the-badge)
 
 </td>
 <td align="center">
@@ -210,7 +240,7 @@
 
 ---
 
-## 🤖 AI & Tooling
+## AI & Tooling
 
 <details>
 <summary><b>🔧 AI-Powered Development Workflow</b></summary>
@@ -235,30 +265,29 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=NotNull92&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" alt="GitHub Stats" />
 </div>
 
 ---
 
-## 🌍 Beyond Code
+## Beyond Code
 
 ```yaml
-Location: Seoul, South Korea (ex-Sydney, Ex-Brisbane, Ex-Gold Coast, Ex-Cleveland, Australia)
+Location: Seoul, South Korea (ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia)
 Languages: Korean (Native) | English (Pre-intermediate)
 Hobbies:
-  - 🏋️ Weight Training
-  - 🎌 Anime & Manga
-  - 📈 ETF Investing
-  - 🎮 Gaming (obviously)
+  - Weight Training
+  - Anime & Manga
+  - ETF Investing
+  - Gaming
 Motto: "Build the life you want — one commit at a time."
 ```
 
 ---
-
-## 📫 Contact
 
 <div align="center">
 
