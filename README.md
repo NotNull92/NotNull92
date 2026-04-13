@@ -1,5 +1,7 @@
 <div align="center">
 
+[🇰🇷 한국어](README.ko.md)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:0D1117&height=120&section=header&text=&fontSize=0" width="100%" />
 
 <a href="https://github.com/NotNull92">
