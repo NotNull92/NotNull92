@@ -280,7 +280,7 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 
 ```yaml
 Location: Seoul, South Korea (ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia)
-Languages: Korean (Native) | English (Pre-intermediate)
+Languages: Korean (Native) | English (Conversational)
 Hobbies:
   - Weight Training
   - Anime & Manga
