@@ -291,14 +291,8 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 |------|---------|
 | **Claude Desktop** | AI-assisted coding, architecture planning, code review |
 | **Claude Code CLI** | Terminal-based AI pair programming |
-| **Opencode** | [Open-source AI coding assistant](https://github.com/anomalyco/opencode) |
+| **[Open-Code](https://github.com/anomalyco/opencode)** | Open-source AI coding assistant |
 | **[Hermes Agent](https://github.com/nousresearch/hermes-agent)** | Autonomous AI agent framework by Nous Research |
-
-**MCP Servers I Use:**
-- 📓 **Obsidian MCP** — Knowledge base integration
-- 💻 **JetBrains MCP** — IDE-level AI assistance
-- 🖥️ **Desktop Commander** — System-level automation
-- 🌐 **Playwright MCP** — Browser automation & testing
 
 </details>
 
