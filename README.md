@@ -30,8 +30,8 @@
 
 <!-- Stats Row -->
 <p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=github_dark&hide_border=true" alt="GitHub Streak" />
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox&hide_border=true" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=default&hide_border=true" alt="GitHub Streak" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=github&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <!-- Languages Row -->
