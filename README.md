@@ -15,7 +15,11 @@
 </div>
 
 ---
-[![NotNull92's GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077" alt="NotNull92's GitHub Summary" />
+</p>
+
 ---
 
 ## About Me
