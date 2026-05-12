@@ -25,7 +25,9 @@
 
 <!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
+  </a>
 </div>
 
 <!-- Stats Row -->
