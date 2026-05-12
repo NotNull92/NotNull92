@@ -287,6 +287,10 @@ Hobbies:
 Motto: "Build the life you want — one commit at a time."
 ```
 
+## 🛠️ Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=unity,godot,cs,py,go,react,github,git,nodejs,npm,jenkins,md,rider,vscode,notion,obsidian,stackoverflow&theme=dark)](https://skillicons.dev)
+
 ---
 
 <div align="center">
@@ -295,7 +299,3 @@ Motto: "Build the life you want — one commit at a time."
 [![GitHub](https://img.shields.io/badge/GitHub-NotNull92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotNull92)
 
 </div>
-
-## 🛠️ Tech Stack
-
-[![My Skills](https://skillicons.dev/icons?i=unity,godot,cs,py,go,react,github,git,nodejs,npm,jenkins,md,rider,vscode,notion,obsidian,stackoverflow&theme=dark)](https://skillicons.dev)
