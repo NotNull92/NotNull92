@@ -2,7 +2,7 @@
 
 [🇰🇷 한국어](README.ko.md)
 
-[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&bg_color=000000&color=00FF41&line=00FF41&point=BD00FF&area=true&area_color=00FF411A)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=highcontrast" alt="GitHub Streak" />
