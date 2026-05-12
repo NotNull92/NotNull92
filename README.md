@@ -332,12 +332,6 @@ The pro version of unity-agent-cli. Offers an extended toolset, asset plugin con
 - Use `AsyncGPUReadback` for GPU → CPU texture reads instead of `Texture2D.ReadPixels()` where possible.
 - `PlayerSettings` API moved to `UnityEditor.Build.Player` namespace. Update editor tooling accordingly.
 
-**Unity 2022.3 LTS — Minimum Supported**
-
-- `EditorApplication.update` callback is the primary main-thread marshaling mechanism.
-- `CompilationPipeline.RequestScriptCompilation()` triggers domain reload. Handle `[InitializeOnLoad]` lifecycle accordingly.
-- `AssetDatabase.Refresh()` is synchronous. Use `AssetDatabase.ImportAsset()` for single-file refresh to avoid full project scan.
-
 **Go 1.24+ — CLI Build Target**
 
 - Use `slices.Contains()` / `maps.Keys()` from `golang.org/x/exp` (or stdlib if Go 1.21+) instead of manual loops.
