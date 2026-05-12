@@ -248,12 +248,12 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 > One binary. Zero dependencies. Direct HTTP bridge to Unity Editor.
 
-AI 에이전트와 터미널에서 Unity Editor를 직접 제어하는 오픈소스 CLI 도구. 단일 Go 바이너리가 localhost HTTP로 Unity와 통신하며, Unity 측 커넥터는 에디터 실행 시 자동 시작.
+An open-source CLI tool that lets AI agents and terminals control Unity Editor directly. A single Go binary communicates with Unity over localhost HTTP, and the Unity-side connector starts automatically when the editor launches.
 
-- **Go CLI** — 20개 파일, ~800 LOC — 명령어 파싱, HTTP 클라이언트, 인스턴스 디스커버리
-- **C# Connector** — 22개 파일, ~2,300 LOC — `[UnityCliTool]` 어트리뷰트 기반 자동 도구 등록
-- **핵심 명령어** — `editor play`, `test`, `status`, `exec`, `console`, `update`
-- **아키텍처** — Stateless 단발 HTTP, zero runtime dependencies, cross-platform (Linux/macOS/Windows)
+- **Go CLI** — 20 files, ~800 LOC — command parsing, HTTP client, instance discovery
+- **C# Connector** — 22 files, ~2,300 LOC — auto tool registration via `[UnityCliTool]` attribute
+- **Core Commands** — `editor play`, `test`, `status`, `exec`, `console`, `update`
+- **Architecture** — Stateless single-shot HTTP, zero runtime dependencies, cross-platform (Linux/macOS/Windows)
 
 ---
 
@@ -269,13 +269,13 @@ AI 에이전트와 터미널에서 Unity Editor를 직접 제어하는 오픈소
 
 > Pro version with advanced features, priority support, and Patreon-exclusive content.
 
-unity-agent-cli의 프로 버전. 확장된 도구 세트, 에셋 플러그인 설정 관리, 자체 업데이트 시스템, 그리고 개선된 TUI를 제공.
+The pro version of unity-agent-cli. Offers an extended toolset, asset plugin configuration management, self-update system, and improved TUI.
 
-- **Go CLI** — 27개 파일, ~3,400 LOC — asset config, version check, advanced TUI helpers
-- **C# Connector** — 23개 파일, ~5,100 LOC — `[HeraAgentPro]` 어트리뷰트, built-in tools schema, test runner
-- **추가 기능** — Asset plugin config persistence, periodic update notice (12h), self-update from GitHub releases
-- **릴리스** — Cross-build 5종 (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
-- **NoMoreRolls 개발에 직접 사용** — Unity Editor 자동화, 씬 제어, 테스트 실행
+- **Go CLI** — 27 files, ~3,400 LOC — asset config, version check, advanced TUI helpers
+- **C# Connector** — 23 files, ~5,100 LOC — `[HeraAgentPro]` attribute, built-in tools schema, test runner
+- **Additional Features** — Asset plugin config persistence, periodic update notice (12h), self-update from GitHub releases
+- **Release** — Cross-build 5 targets (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
+- **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution
 
 ---
 
