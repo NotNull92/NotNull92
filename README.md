@@ -17,7 +17,17 @@
 ---
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077" alt="NotNull92's GitHub Summary" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=gruvbox" alt="NotNull92's GitHub Summary" />
+</p>
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox" alt="Repos per Language" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox" alt="GitHub Stats" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9" alt="Productive Time" />
 </p>
 
 ---
