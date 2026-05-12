@@ -17,7 +17,7 @@
 ---
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077" alt="NotNull92's GitHub Summary" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=gruvbox" alt="NotNull92's GitHub Summary" />
 </p>
 
 ---
