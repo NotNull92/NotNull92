@@ -257,7 +257,7 @@ AI 에이전트와 터미널에서 Unity Editor를 직접 제어하는 오픈소
 
 ---
 
-### [unity-agent-cli-pro](https://github.com/NotNull92/unity-agent-cli-pro) — 프로 버전
+### unity-agent-cli-pro — 프로 버전
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
