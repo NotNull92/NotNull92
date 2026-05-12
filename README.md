@@ -281,7 +281,7 @@ The pro version of unity-agent-cli. Offers an extended toolset, asset plugin con
 <summary><b>⚙️ Engineering Highlights</b></summary>
 <br>
 
-- Harness engineering applied — testable architecture with injected dependencies and filesystem-based state protocol
+- Harness engineering applied — testable architecture with clean separation of concerns
 - Orchestration layer for cross-process state coordination between Go CLI and Unity Editor
 - Unity Mono runtime coding guidelines enforced for code correctness
 - Cross-platform release pipeline (Linux/macOS/Windows, amd64/arm64)
