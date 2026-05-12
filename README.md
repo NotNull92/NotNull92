@@ -4,9 +4,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:0D1117&height=120&section=header&text=&fontSize=0" width="100%" />
 
-[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&bg_color=000000&color=00FF41&line=00FF41&point=BD00FF&area=true&area_color=00FF411A)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
 [![NotNull92's GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+
+[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&bg_color=000000&color=00FF41&line=00FF41&point=BD00FF&area=true&area_color=00FF411A)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
 
