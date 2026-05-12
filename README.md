@@ -257,7 +257,7 @@ An open-source CLI tool that lets AI agents and terminals control Unity Editor d
 
 ---
 
-### unity-agent-cli-pro — Pro Version
+### [unity-agent-cli-pro](https://github.com/NotNull92/unity-agent-cli-pro) — Pro Version
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
@@ -267,15 +267,86 @@ An open-source CLI tool that lets AI agents and terminals control Unity Editor d
 <img src="https://img.shields.io/badge/Status-v0.0.12-22C55E?style=for-the-badge" alt="v0.0.12" />
 </p>
 
-> Pro version with advanced features, priority support, and Patreon-exclusive content.
+> One binary. Zero dependencies. Direct HTTP bridge to Unity Editor. **Harness-engineered for AI agents.**
 
 The pro version of unity-agent-cli. Offers an extended toolset, asset plugin configuration management, self-update system, and improved TUI.
 
 - **Go CLI** — 27 files, ~3,400 LOC — asset config, version check, advanced TUI helpers
 - **C# Connector** — 23 files, ~5,100 LOC — `[HeraAgentPro]` attribute, built-in tools schema, test runner
+- **Harness Engineering** — Dependency injection via function types, package-level test seams, `[InitializeOnLoad]` lifecycle management, filesystem-based instance protocol
+- **Orchestration** — Three-phase state coordination (waitForAlive → send → waitForReady), compile grace period, PlayMode test polling with fsnotify, main-thread marshaling via `ConcurrentQueue`
 - **Additional Features** — Asset plugin config persistence, periodic update notice (12h), self-update from GitHub releases
 - **Release** — Cross-build 5 targets (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
 - **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution
+
+<details>
+<summary><b>⚙️ Harness Engineering & Orchestration</b></summary>
+<br>
+
+**Dependency Injection** — Every command handler receives its network layer as an injected function (`sendFn`, `instanceResolver`), never calling `client.Send` directly. Tests inject mock functions to verify the entire command layer without a Unity process.
+
+**Package-Level Test Seams** — OS-level concerns are injected via replaceable variables: `isProcessDead` for stale-PID detection, `batchStdin` for stdin reads, `fetchLatestReleaseFn` for network calls. Each can be swapped to a stub in tests.
+
+**`[InitializeOnLoad]` Lifecycle** — Defensive unsubscribe-before-subscribe pattern (`-= then +=`) prevents duplicate event handlers across domain reloads. Assembly reload lifecycle: `beforeAssemblyReload` tears down HTTP listener → assemblies reload → static constructor restarts it → `afterAssemblyReload` confirms.
+
+**Filesystem-Based Instance Protocol** — `~/.unity-agent-cli-pro/instances/{hash}_{port}.json` is the only communication channel that survives domain reload. Atomic writes (write to `.tmp`, then rename) prevent half-written JSON reads.
+
+**Three-Phase State Coordination** — Commands that trigger compilation follow: `waitForAlive` (poll heartbeat until fresh) → send command → `waitForReady` (poll until `state == "ready"`). Exponential backoff (100ms → 150ms → ... → 2s cap).
+
+**Compile Grace Period** — `Heartbeat.MarkCompileRequested()` forces `"compiling"` state for 3 seconds even if `EditorApplication.isCompiling` is still `false`, preventing premature `"ready"` detection.
+
+**PlayMode Test Polling** — PlayMode tests cause domain reload, destroying the HTTP server. Unity writes results to `~/.unity-agent-cli-pro/status/test-results-{port}.json`; the CLI polls this file. A `suppressWriter` silences Go's idle HTTP channel log caused by server teardown.
+
+**Main-Thread Marshaling** — HTTP requests arrive on a background thread but Unity APIs require the main thread. Bridge: `ConcurrentQueue<WorkItem>` + `EditorApplication.update` callback + `TaskCompletionSource`. `RepaintAllViews()` forces queue processing even when unfocused.
+
+</details>
+
+<details>
+<summary><b>📋 Unity Mono Coding Guidelines</b></summary>
+<br>
+
+**Code Correctness for Unity Mono Runtime**
+
+- **Avoid `?.` null-conditional operator** — Unity's custom `==` operator overloads conflict with `?.` pattern matching. Use explicit null checks: `if (obj != null) obj.Method()` instead of `obj?.Method()`.
+- **Avoid `??=` null-coalescing assignment** — Not supported in Unity's C# 7.3 compiler target. Use `if (field == null) field = value;`.
+- **Use `== null` / `!= null` for Unity objects** — Unity overrides `==` for destroyed objects. `obj == null` returns `true` even if the C# reference exists but the native object is destroyed. Never use `ReferenceEquals(obj, null)` for Unity objects.
+- **Avoid `async void`** — Always use `async Task`. `async void` cannot be awaited and silently swallows exceptions in Unity's main thread context.
+- **Prefer `UniTask` over `Task`** — For Unity-specific async operations (coroutines, frame delays, asset loading), `UniTask` allocates zero GC and integrates with Unity's player loop.
+- **Avoid `ConfigureAwait(false)` in Unity** — Unity APIs must be called on the main thread. `ConfigureAwait(false)` can resume on a thread pool thread, causing crashes.
+- **Use `nameof()` for reflection** — Avoid hardcoded string literals when referencing fields/methods for reflection or `SendMessage`. `nameof(MyField)` is refactor-safe.
+- **Avoid LINQ in hot paths** — LINQ allocates enumerators and delegates. Use explicit loops for `Update`, `LateUpdate`, or frequently called methods.
+- **Cache `transform` / `gameObject` lookups** — `GetComponent<T>()` and `transform` property access are not free. Cache references in `Awake()` or `Start()`.
+- **Use `[SerializeField]` over `public` fields** — Encapsulation. Inspector-visible without exposing to other classes.
+- **Avoid `FindObjectOfType<T>()` in runtime** — Scans all loaded objects. Use dependency injection, `ServiceLocator`, or cached references.
+
+</details>
+
+<details>
+<summary><b>📦 Version-Specific Guidelines</b></summary>
+<br>
+
+**Unity 6 (6000.0+) — Current Target**
+
+- Use `UnityEngine.InputSystem` (new Input System) for all input handling. Legacy `Input` class is deprecated.
+- Prefer `Addressables` over `Resources.Load()` for asset management. `Resources` folder builds all assets into the binary unconditionally.
+- Use `AsyncGPUReadback` for GPU → CPU texture reads instead of `Texture2D.ReadPixels()` where possible.
+- `PlayerSettings` API moved to `UnityEditor.Build.Player` namespace. Update editor tooling accordingly.
+
+**Unity 2022.3 LTS — Minimum Supported**
+
+- `EditorApplication.update` callback is the primary main-thread marshaling mechanism.
+- `CompilationPipeline.RequestScriptCompilation()` triggers domain reload. Handle `[InitializeOnLoad]` lifecycle accordingly.
+- `AssetDatabase.Refresh()` is synchronous. Use `AssetDatabase.ImportAsset()` for single-file refresh to avoid full project scan.
+
+**Go 1.24+ — CLI Build Target**
+
+- Use `slices.Contains()` / `maps.Keys()` from `golang.org/x/exp` (or stdlib if Go 1.21+) instead of manual loops.
+- `context.WithTimeout()` for all HTTP operations. Default 120s timeout for Unity commands.
+- `json.RawMessage` for deferred JSON parsing in `CommandResponse.Data`. Unmarshal into tool-specific structs at call site.
+- `os.ReadFile()` / `os.WriteFile()` for atomic file operations. Use `filepath.Join()` for cross-platform paths.
+- `testing.T.Parallel()` for unit tests. Integration tests tagged with `//go:build integration`.
+
+</details>
 
 ---
 
