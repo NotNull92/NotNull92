@@ -1,42 +1,53 @@
 <div align="center">
 
-[🇰🇷 한국어](README.ko.md)
+  <!-- Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Victor+%7C+NotNull92;Unity+C%23+%7C+6%2B+Years;Live-Service+MMORPG+Developer;Building+NoMoreRolls+%F0%9F%8E%B2" alt="Typing SVG" />
+  </a>
 
-[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  <br/><br/>
 
+  <!-- Profile Views + Badges -->
+  <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Revenue-%E2%82%A940B%2B%20Annual-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
+
+  <br/><br/>
+
+  <!-- Language Switch -->
+  [🇰🇷 한국어](README.ko.md)
+
+</div>
+
+---
+
+<!-- Activity Graph -->
 <div align="center">
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=highcontrast" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
 </div>
 
-<img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Experience-6%2B%20Years-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
-<img src="https://img.shields.io/badge/Revenue-%E2%82%A940B%2B%20Annual-22C55E?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Domain-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
-
-</div>
-
----
-
+<!-- Stats Row -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=gruvbox" alt="NotNull92's GitHub Summary" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox&hide_border=true" alt="GitHub Stats" />
 </p>
 
+<!-- Languages Row -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Repos per Language" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Most Commit Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
 </p>
 
+<!-- Productive Time -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox" alt="GitHub Stats" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9" alt="Productive Time" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9&hide_border=true" alt="Productive Time" />
 </p>
 
 ---
 
-## About Me
+## 👤 About Me
 
 > **Victor** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
 
@@ -49,7 +60,7 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
-## Professional Experience
+## 💼 Professional Experience
 
 <table>
 <tr>
@@ -93,7 +104,7 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
-## Projects
+## 🎮 Projects
 
 ### NoMoreRolls — In Development
 
@@ -290,7 +301,7 @@ The pro version of unity-agent-cli. Offers an extended toolset, asset plugin con
 
 ---
 
-## AI & Tooling
+## 🤖 AI & Tooling
 
 <details>
 <summary><b>🔧 AI-Powered Development Workflow</b></summary>
@@ -309,7 +320,7 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 
 ---
 
-## Beyond Code
+## 🌐 Beyond Code
 
 ```yaml
 Location: Seoul, South Korea (ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia)

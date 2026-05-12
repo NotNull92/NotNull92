@@ -1,42 +1,53 @@
 <div align="center">
 
-[🇬🇧 English](README.md)
+  <!-- Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Victor+%7C+NotNull92;Unity+C%23+%7C+6%EB%85%84+%2B;Live-Service+MMORPG+%EA%B0%9C%EB%B0%9C%EC%9E%90;NoMoreRolls+%EA%B0%9C%EB%B0%9C+%EC%A4%91+%F0%9F%8E%B2" alt="Typing SVG" />
+  </a>
 
-[![NotNull92's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  <br/><br/>
 
+  <!-- Profile Views + Badges -->
+  <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/%EA%B2%BD%ED%97%98-6%EB%85%84%2B-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EB%A7%A4%EC%B6%9C-%EC%97%B0400%EC%96%B5%2B-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%EB%8F%84%EB%A9%94%EC%9D%B8-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
+
+  <br/><br/>
+
+  <!-- Language Switch -->
+  [🇬🇧 English](README.md)
+
+</div>
+
+---
+
+<!-- Activity Graph -->
 <div align="center">
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=highcontrast" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
 </div>
 
-<img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Experience-6%2B%20Years-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
-<img src="https://img.shields.io/badge/Revenue-%E2%82%A940B%2B%20Annual-22C55E?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Domain-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
-
-</div>
-
----
-
+<!-- Stats Row -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=gruvbox" alt="NotNull92's GitHub Summary" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox&hide_border=true" alt="GitHub Stats" />
 </p>
 
+<!-- Languages Row -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Repos per Language" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Most Commit Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
 </p>
 
+<!-- Productive Time -->
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=gruvbox" alt="GitHub Stats" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9" alt="Productive Time" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9&hide_border=true" alt="Productive Time" />
 </p>
 
 ---
 
-## 소개
+## 👤 소개
 
 > **Victor** — 서울, 대한민국 🇰🇷 | 과거 거주: 시드니, 브리즈번, 골드코스트, 클리블랜드, 호주 🇦🇺
 
@@ -49,7 +60,7 @@
 
 ---
 
-## 경력
+## 💼 경력
 
 <table>
 <tr>
@@ -93,7 +104,7 @@
 
 ---
 
-## 프로젝트
+## 🎮 프로젝트
 
 ### NoMoreRolls — 개발 중
 
@@ -290,7 +301,7 @@ unity-agent-cli의 프로 버전입니다. 확장된 도구 세트, 에셋 플�
 
 ---
 
-## AI & 툴
+## 🤖 AI & 툴
 
 <details>
 <summary><b>🔧 AI 기반 개발 워크플로우</b></summary>
@@ -309,7 +320,7 @@ AI 도구와 **Model Context Protocol(MCP)** 생태계를 활용하여 개발 �
 
 ---
 
-## 코드 외의 삶
+## 🌐 코드 외의 삶
 
 ```yaml
 위치: 서울, 대한민국 (과거 거주: 시드니, 브리즈번, 골드코스트, 클리블랜드, 호주)
