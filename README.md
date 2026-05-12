@@ -36,8 +36,8 @@
 
 <!-- Languages Row -->
 <p align="center">
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
+  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
 </p>
 
 ---
