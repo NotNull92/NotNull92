@@ -257,7 +257,7 @@ An open-source CLI tool that lets AI agents and terminals control Unity Editor d
 
 ---
 
-### [unity-agent-cli-pro](https://github.com/NotNull92/unity-agent-cli-pro) — Pro Version
+### unity-agent-cli-pro — Pro Version
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
