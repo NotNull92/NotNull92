@@ -303,3 +303,9 @@ Motto: "Build the life you want — one commit at a time."
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=80&section=footer" width="100%" />
 </div>
+
+---
+
+## 🛠️ Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=unity,godot,cs,py,go,react,github,git,nodejs,npm,jenkins,md,rider,vscode,notion,obsidian,stackoverflow&theme=dark)](https://skillicons.dev)
