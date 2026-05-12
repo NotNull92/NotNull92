@@ -21,8 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox" alt="Repos per Language" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox" alt="Most Commit Language" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Repos per Language" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript" alt="Most Commit Language" />
 </p>
 
 <p align="center">
