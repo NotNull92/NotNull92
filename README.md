@@ -291,7 +291,7 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 |------|---------|
 | **Claude Desktop** | AI-assisted coding, architecture planning, code review |
 | **Claude Code CLI** | Terminal-based AI pair programming |
-| **Opencode** | Open-source AI coding assistant |
+| **Opencode** | [Open-source AI coding assistant](https://github.com/anomalyco/opencode) |
 | **[Hermes Agent](https://github.com/nousresearch/hermes-agent)** | Autonomous AI agent framework by Nous Research |
 
 **MCP Servers I Use:**
