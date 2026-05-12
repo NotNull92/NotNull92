@@ -267,80 +267,15 @@ AI 에이전트와 터미널에서 Unity Editor를 직접 제어하는 오픈소
 <img src="https://img.shields.io/badge/Status-v0.0.12-22C55E?style=for-the-badge" alt="v0.0.12" />
 </p>
 
-> 단일 바이너리. 제로 의존성. Unity Editor로의 직접 HTTP 브리지. **AI 에이전트를 위한 하네스 엔지니어링.**
+> 단일 바이너리. 제로 의존성. Unity Editor로의 직접 HTTP 브리지.
 
 unity-agent-cli의 프로 버전입니다. 확장된 도구 세트, 에셋 플러그인 설정 관리, 자체 업데이트 시스템, 그리고 개선된 TUI를 제공합니다.
 
 - **Go CLI** — 27개 파일, 약 3,400 LOC — 에셋 설정, 버전 확인, 고급 TUI 헬퍼
 - **C# Connector** — 23개 파일, 약 5,100 LOC — `[HeraAgentPro]` 어트리뷰트, 내장 도구 스키마, 테스트 러너
-- **하네스 엔지니어링** — 함수 타입 기반 의존성 주입, 패키지 레벨 테스트 시밍, `[InitializeOnLoad]` 라이프사이클 관리, 파일시스템 기반 인스턴스 프로토콜
-- **오케스트레이션** — 3단계 상태 조정(waitForAlive → 전송 → waitForReady), 컴파일 유예 기간, PlayMode 테스트 폴리(fsnotify), `ConcurrentQueue` 기반 메인 스레드 마샬링
 - **추가 기능** — 에셋 플러그인 설정 영속성, 주기적 업데이트 알림(12시간), GitHub 릴리스에서 자체 업데이트
 - **릴리스** — GitHub Actions를 통한 5대상 크로스 빌드(linux/darwin × amd64/arm64, windows amd64)
 - **NoMoreRolls 개발에 직접 사용** — Unity Editor 자동화, 씬 제어, 테스트 실행
-
-<details>
-<summary><b>⚙️ 하네스 엔지니어링 & 오케스트레이션</b></summary>
-<br>
-
-**의존성 주입** — 모든 명령 핸들러는 네트워크 레이어를 주입된 함수(`sendFn`, `instanceResolver`)로 받습니다. `client.Send`를 직접 호출하지 않습니다. 테스트는 목 함수를 주입하여 Unity 프로세스 없이 전체 명령 레이어를 검증합니다.
-
-**패키지 레벨 테스트 시밍** — OS 수준 관심사는 교체 가능한 변수로 주입됩니다: `isProcessDead`(오래된 PID 감지), `batchStdin`(stdin 읽기), `fetchLatestReleaseFn`(네트워크 호출). 각각 테스트에서 스텁으로 교체 가능합니다.
-
-**`[InitializeOnLoad]` 라이프사이클** — 방어적 구독 해제-재구독 패턴(`-= then +=`)으로 도메인 리로드 간 중복 이벤트 핸들러를 방지합니다. 어셈블리 리로드 라이프사이클: `beforeAssemblyReload`가 HTTP 리스너를 종료 → 어셈블리 리로드 → 정적 생성자가 재시작 → `afterAssemblyReload`가 확인합니다.
-
-**파일시스템 기반 인스턴스 프로토콜** — `~/.unity-agent-cli-pro/instances/{hash}_{port}.json`은 도메인 리로드를 생존하는 유일한 통신 채널입니다. 원자적 쓰기(`.tmp`에 쓰고 rename)로 절반만 쓰인 JSON 읽기를 방지합니다.
-
-**3단계 상태 조정** — 컴파일을 트리거하는 명령은 `waitForAlive`(하트비트가 신선해질 때까지 폴) → 명령 전송 → `waitForReady`(`state == "ready"`까지 폴) 순서를 따릅니다. 지수 백오프(100ms → 150ms → ... → 2s 상한).
-
-**컴파일 유예 기간** — `Heartbeat.MarkCompileRequested()`는 `EditorApplication.isCompiling`이 아직 `false`여도 3초간 `"compiling"` 상태를 강제합니다. 이로 인해 조기 `"ready"` 감지를 방지합니다.
-
-**PlayMode 테스트 폴리** — PlayMode 테스트는 도메인 리로드를 일으켜 HTTP 서버를 파괴합니다. Unity는 결과를 `~/.unity-agent-cli-pro/status/test-results-{port}.json`에 쓰고, CLI는 이 파일을 폴합니다. `suppressWriter`는 서버 종료로 인한 Go의 idle HTTP 채널 로그를 억제합니다.
-
-**메인 스레드 마샬링** — HTTP 요청은 백그라운드 스레드에서 도착하지만 Unity API는 메인 스레드가 필요합니다. 브리지: `ConcurrentQueue<WorkItem>` + `EditorApplication.update` 콜백 + `TaskCompletionSource`. `RepaintAllViews()`는 포커스가 없을 때도 큐 처리를 강제합니다.
-
-</details>
-
-<details>
-<summary><b>📋 Unity Mono 코딩 가이드라인</b></summary>
-<br>
-
-**Unity Mono 런타임을 위한 코드 정확성**
-
-- **`?.` null-조걶 연산자 사용 금지** — Unity의 커스텀 `==` 연산자 오버로드가 `?.` 패턴 매칭과 충돌합니다. 명시적 null 체크 사용: `obj?.Method()` 대신 `if (obj != null) obj.Method()`.
-- **`??=` null-병합 할당 사용 금지** — Unity의 C# 7.3 컴파일러 타겟에서 지원되지 않습니다. `if (field == null) field = value;` 사용.
-- **Unity 객체에는 `== null` / `!= null` 사용** — Unity는 소멸된 객체에 대해 `==`을 오버라이드합니다. C# 참조가 존재필도 네이티브 객체가 소멸되면 `obj == null`이 `true`를 반환합니다. Unity 객체에 `ReferenceEquals(obj, null)` 절대 사용 금지.
-- **`async void` 사용 금지** — 항상 `async Task` 사용. `async void`는 await할 수 없고 Unity 메인 스레드 컨텍스트에서 예외를 조용히 삼킵니다.
-- **`Task`보다 `UniTask` 선호** — Unity 특화 비동기 작업(코루틴, 프레임 지연, 에셋 로딩)에 `UniTask`는 GC 할당 제로이며 Unity 플레이어 루프와 통합됩니다.
-- **Unity에서 `ConfigureAwait(false)` 사용 금지** — Unity API는 메인 스레드에서 호출해야 합니다. `ConfigureAwait(false)`는 스레드 풀 스레드에서 재개될 수 있어 크래시를 유발합니다.
-- **리플렉션에는 `nameof()` 사용** — 리플렉션이나 `SendMessage`용 필드/메서드 참조 시 하드코딩된 문자열 리터럴 피하기. `nameof(MyField)`는 리팩토링에 안전합니다.
-- **핫 패스에서 LINQ 사용 금지** — LINQ는 열거자와 델리게이트를 할당합니다. `Update`, `LateUpdate`, 또는 빈번히 호출되는 메서드에는 명시적 루프 사용.
-- **`transform` / `gameObject` 조회 캐싱** — `GetComponent<T>()`와 `transform` 속성 접근은 물론이지만 비용이 듭니다. `Awake()` 또는 `Start()`에서 참조 캐싱.
-- **`[SerializeField]`를 `public` 필드보다 선호** — 캡슐화. 다른 클래스에 노출하지 않고도 인스펙터에서 표시됩니다.
-- **런타임에서 `FindObjectOfType<T>()` 사용 금지** — 모든 로드된 객체를 스캔합니다. 의존성 주입, `ServiceLocator`, 또는 캐시된 참조 사용.
-
-</details>
-
-<details>
-<summary><b>📦 버전별 가이드라인</b></summary>
-<br>
-
-**Unity 6 (6000.0+) — 현재 타겟**
-
-- 모든 입력 처리에 `UnityEngine.InputSystem`(신규 입력 시스템) 사용. 레거시 `Input` 클래스는 사용 중단됨.
-- 에셋 관리에 `Resources.Load()`보다 `Addressables` 선호. `Resources` 폴터는 모든 에셋을 무조건 바이너리에 빌드합니다.
-- 가능한 경우 GPU → CPU 텍스처 읽기에 `Texture2D.ReadPixels()` 대신 `AsyncGPUReadback` 사용.
-- `PlayerSettings` API가 `UnityEditor.Build.Player` 네임스페이스로 이동. 에디터 도구 업데이트 필요.
-
-**Go 1.24+ — CLI 빌드 타겟**
-
-- 수동 루프 대신 `golang.org/x/exp`의 `slices.Contains()` / `maps.Keys()` 사용(또는 Go 1.21+의 표준 라이브러리).
-- 모든 HTTP 작업에 `context.WithTimeout()` 사용. Unity 명령의 기본 타임아웃은 120초.
-- `CommandResponse.Data`의 지연 JSON 파싱에 `json.RawMessage` 사용. 호출 지점에서 도구 특화 구조체로 언마샬.
-- 원자적 파일 작업에 `os.ReadFile()` / `os.WriteFile()` 사용. 크로스 플랫폼 경로에 `filepath.Join()` 사용.
-- 단위 테스트에 `testing.T.Parallel()` 사용. 통합 테스트는 `//go:build integration` 태그로 표시.
-
-</details>
 
 ---
 
