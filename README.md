@@ -40,11 +40,6 @@
   <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=gruvbox&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
 </p>
 
-<!-- Productive Time -->
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9&hide_border=true" alt="Productive Time" />
-</p>
-
 ---
 
 ## 👤 About Me
