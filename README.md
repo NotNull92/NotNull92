@@ -98,26 +98,36 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 ### NoMoreRolls — In Development
 
 <p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
 <img src="https://img.shields.io/badge/Genre-Roguelike_(Dice_Based)-FF6B6B?style=for-the-badge" alt="Roguelike" />
 <img src="https://img.shields.io/badge/Platform-Steam_(PC)-1B2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
 <img src="https://img.shields.io/badge/Team-Solo_Dev-FFA500?style=for-the-badge" alt="Solo Dev" />
-<img src="https://img.shields.io/badge/Status-In_Development-22C55E?style=for-the-badge" alt="In Development" />
+<img src="https://img.shields.io/badge/Status-BIC_2026_Polishing-22C55E?style=for-the-badge" alt="BIC 2026 Polishing" />
 </p>
 
 > 🎲 *Undertale's moral combat choices translated into dice poker mechanics — a solo-developed roguelike.*
 > Every encounter is a choice: **Fight** or **Talk**. The same dice, the same hands — but divergent meaning.
 
 <details>
-<summary><b>⚔️ Core Systems</b></summary>
+<summary><b>⚔️ Core Systems (148 Scripts, ~22K LOC)</b></summary>
 <br>
 
 - **PedigreeManager** — 10-tier dice hand ranking (HighCard → MonoRoll) + dual damage/empathy calculation
 - **TalkManager** — Empathy gauge, per-enemy condition puzzles (7 switch types), dialogue branching
 - **BattleManager SubSM** — 11-state turn-based combat FSM (Intro → RouteSelect → Dice → Hand → Resolve → TurnEnd)
-- **DiceSlotManager** — 5-slot equip/swap/inventory system (deckbuilding → slot system evolution)
-- **CorridorState** — 22-node fixed corridor progression with DOTween scroll/fade direction
+- **DiceSlotManager** — 5-slot equip/swap/inventory system (Basic/Unique/Enhanced 3-tier dice)
+- **SoulGimmick System** — 10 unique soul gimmicks via ISoulGimmickHandler interface + Factory pattern (Bell, Ember, Gavel, Hollow, Palette, Phonograph, Roulette, Scribe, Seven, TheDealer)
+- **CorridorState** — 22-node fixed corridor progression (Battle/Elite/Boss/Rest/Event/Exit)
 - **Fight/Talk Symmetric Routes** — Identical dice-hand loop diverges into attack vs. empathy outcomes
+- **EnemyWeakness System** — Visual badge + puzzle-based weakness hints with dynamic bias mechanics
+- **MemoryFragment** — Consumable cross-run item system with FragmentEffectHelper
+- **EmotionalStateTracker** → BattleAtmosphereController + DynamicUITintController + EnemyExpressionController
+- **FlashbackManager** — Micro/short/long 3-tier flashback cinematic sequences
+- **CrossRunSaveManager** — JSON-based persistence with meta-event tracking
+- **MetaEventManager** — Per-run title logo/subtitle changes + Dealer typing direction
+- **True Ending Route** — Unlocked by achieving both Fight & Talk endings
+- **LocalizationManager** — KO/EN/JA/RU 4-language support with static UI translation
+- **AccessibilityManager** — Motion reduction, colorblind overlay, visual sound indicator, font scaler
 
 </details>
 
@@ -127,22 +137,28 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 - **CombatUIController** — Unified battle HUD (hand selection, reroll, route choice, results)
 - **PlayerAttackDirector** — 3-phase attack sequence (popup → icon flight → hit flash)
-- **EmotionGaugeUI** — DOTween heart gauge animations
+- **EmotionGaugeUI** — DOTween heart gauge animations + empathy label
+- **HandGuidePanel** — 2-row scrollable hand reference guide (TAB toggle, dice highlight)
 - **DoorSlotUI** — Per-state door sprites + pulse animation + companion display
-- **RouteSelectUI** — Fight/Talk selection + enemy dialogue bubbles
+- **RouteSelectUI** — Fight/Talk selection with description tooltips + enemy dialogue bubbles
+- **BattleResultPanelUI** — Victory reward selection with golden effect text
+- **ScreenOverlayController** — Damage flash, vignette, chromatic aberration
+- **GimmickGuideUI** — In-battle gimmick mechanic explanation panel
+- **WeaknessIconUI** — Dynamic weakness hint badge system
 
 </details>
 
 <details>
-<summary><b>🔄 Meta Systems & Design</b></summary>
+<summary><b>🔄 Recent Major Updates (2026.04–05)</b></summary>
 <br>
 
-- **CrossRunSaveManager** — JSON-based cross-run persistence
-- **MetaEventSystem** — Per-run title logo/subtitle changes + Dealer typing direction
-- **True Ending Route** — Unlocked by achieving both Fight & Talk endings
-- **GDD** — 23 sections covering worldview, characters, combat, Talk, gimmicks, encounters, endings
-- **Balance Simulation** — 10,000-turn Monte Carlo for hand/damage/empathy tuning
-- **9 GimmickTypes** — Trauma translated into gameplay mechanics for 10 unique souls
+- **BIC 2026 Polishing** — 6-phase polishing plan (Code stabilization → Onboarding UX → Combat polish → Build stabilization → Submission)
+- **Playtest Feedback Applied** — ESC→Pause menu, Space+Click dialogue, Name input back button, Battle onboarding guide, Reward stat tooltips
+- **Seven NumberLock Redesign** — Visual badge system + `seven_reverse` sub-gimmick + dynamic reroll cost
+- **Enemy Weakness System** — Full implementation with hint/puzzle mechanics + event/rest reward overhaul
+- **Singleton Refactor** — Manager/Controller-only singletons, Inspector-assigned references
+- **ParlorScene Hierarchy Cleanup** — Object renaming + structural reorganization
+- **Hera Agent Pro Upgrade** — Unity MCP integration for AI-driven development
 
 </details>
 
@@ -151,12 +167,13 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 <br>
 
 <p>
-<img src="https://img.shields.io/badge/Unity-000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
 <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/DOTween-E84C3D?style=flat-square" alt="DOTween" />
 <img src="https://img.shields.io/badge/Odin_Inspector-1E90FF?style=flat-square" alt="Odin Inspector" />
 <img src="https://img.shields.io/badge/UniTask-6C5CE7?style=flat-square" alt="UniTask" />
-<img src="https://img.shields.io/badge/OpenClaw-22C55E?style=flat-square" alt="OpenClaw" />
+<img src="https://img.shields.io/badge/Hermes_Agent-FF6B6B?style=flat-square&logo=nousresearch&logoColor=white" alt="Hermes Agent" />
+<img src="https://img.shields.io/badge/Claude_Code_CLI-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code CLI" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square" alt="Obsidian" />
 </p>
@@ -219,6 +236,49 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
+### [unity-agent-cli](https://github.com/NotNull92/unity-agent-cli) — Open Source
+
+<p align="center">
+<img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Connector-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/Protocol-HTTP-FF6B6B?style=for-the-badge" alt="HTTP" />
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" />
+<img src="https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge" alt="Released" />
+</p>
+
+> One binary. Zero dependencies. Direct HTTP bridge to Unity Editor.
+
+AI 에이전트와 터미널에서 Unity Editor를 직접 제어하는 오픈소스 CLI 도구. 단일 Go 바이너리가 localhost HTTP로 Unity와 통신하며, Unity 측 커넥터는 에디터 실행 시 자동 시작.
+
+- **Go CLI** — 20개 파일, ~800 LOC — 명령어 파싱, HTTP 클라이언트, 인스턴스 디스커버리
+- **C# Connector** — 22개 파일, ~2,300 LOC — `[UnityCliTool]` 어트리뷰트 기반 자동 도구 등록
+- **핵심 명령어** — `editor play`, `test`, `status`, `exec`, `console`, `update`
+- **아키텍처** — Stateless 단발 HTTP, zero runtime dependencies, cross-platform (Linux/macOS/Windows)
+
+---
+
+### [unity-agent-cli-pro](https://github.com/NotNull92/unity-agent-cli-pro) — Pro Version
+
+<p align="center">
+<img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Connector-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/Protocol-HTTP-FF6B6B?style=for-the-badge" alt="HTTP" />
+<img src="https://img.shields.io/badge/License-Commercial-red?style=for-the-badge" alt="Commercial" />
+<img src="https://img.shields.io/badge/Status-v0.0.12-22C55E?style=for-the-badge" alt="v0.0.12" />
+</p>
+
+> Pro version with advanced features, priority support, and Patreon-exclusive content.
+
+unity-agent-cli의 프로 버전. 확장된 도구 세트, 에셋 플러그인 설정 관리, 자체 업데이트 시스템, 그리고 개선된 TUI를 제공.
+
+- **Go CLI** — 27개 파일, ~3,400 LOC — asset config, version check, advanced TUI helpers
+- **C# Connector** — 23개 파일, ~5,100 LOC — `[HeraAgentPro]` 어트리뷰트, built-in tools schema, test runner
+- **추가 기능** — Asset plugin config persistence, periodic update notice (12h), self-update from GitHub releases
+- **릴리스** — Cross-build 5종 (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
+- **NoMoreRolls 개발에 직접 사용** — Unity Editor 자동화, 씬 제어, 테스트 실행
+
+---
+
 ## AI & Tooling
 
 <details>
@@ -232,7 +292,7 @@ I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to superc
 | **Claude Desktop** | AI-assisted coding, architecture planning, code review |
 | **Claude Code CLI** | Terminal-based AI pair programming |
 | **Opencode** | Open-source AI coding assistant |
-| **OpenClaw** | AI-powered development tools |
+| **[Hermes Agent](https://github.com/nousresearch/hermes-agent)** | Autonomous AI agent framework by Nous Research |
 
 **MCP Servers I Use:**
 - 📓 **Obsidian MCP** — Knowledge base integration
