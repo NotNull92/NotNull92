@@ -215,45 +215,6 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
-## Tech Stack
-
-<table>
-<tr>
-<th align="center">Core</th>
-<th align="center">Libraries</th>
-<th align="center">Exploring</th>
-<th align="center">Platforms</th>
-</tr>
-<tr>
-<td align="center">
-
-![Unity](https://img.shields.io/badge/Unity-000?style=for-the-badge&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-
-</td>
-<td align="center">
-
-![DOTween](https://img.shields.io/badge/DOTween-E84C3D?style=for-the-badge)
-![Odin](https://img.shields.io/badge/Odin_Inspector-1E90FF?style=for-the-badge)
-![UniTask](https://img.shields.io/badge/UniTask-6C5CE7?style=for-the-badge)
-
-</td>
-<td align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-</td>
-<td align="center">
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Rider](https://img.shields.io/badge/Rider-000?style=for-the-badge&logo=rider&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
 ## AI & Tooling
 
 <details>
