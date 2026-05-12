@@ -38,7 +38,7 @@
 
 ## About Me
 
-> **Youngjun Ji** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
+> **Victor** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
 
 Unity/C# Developer with **6+ years** of professional experience in live-service mobile MMORPG development. Contributed to projects generating **₩40B+ annual revenue** (Bluepotion Games, Vanco). Specialized in content development, UI/UX programming, and network protocol implementation for large-scale production environments.
 
