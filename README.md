@@ -277,6 +277,17 @@ The pro version of unity-agent-cli. Offers an extended toolset, asset plugin con
 - **Release** — Cross-build 5 targets (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
 - **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution
 
+<details>
+<summary><b>⚙️ Engineering Highlights</b></summary>
+<br>
+
+- Harness engineering applied — testable architecture with injected dependencies and filesystem-based state protocol
+- Orchestration layer for cross-process state coordination between Go CLI and Unity Editor
+- Unity Mono runtime coding guidelines enforced for code correctness
+- Cross-platform release pipeline (Linux/macOS/Windows, amd64/arm64)
+
+</details>
+
 ---
 
 ## AI & Tooling
