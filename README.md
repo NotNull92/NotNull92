@@ -32,14 +32,18 @@
 
 <!-- Stats Row -->
 <p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=default&hide_border=true" alt="GitHub Streak" />
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=github&hide_border=true" alt="GitHub Stats" />
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+    <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=default&hide_border=true" alt="GitHub Streak" />
+    <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=github&hide_border=true" alt="GitHub Stats" />
+  </a>
 </p>
 
 <!-- Languages Row -->
 <p align="center">
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
   <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
   <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
+  </a>  
 </p>
 
 ---
