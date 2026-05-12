@@ -8,7 +8,9 @@
 
 [![NotNull92's GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NotNull92&theme=2077)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-<img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
 
 <br/><br/>
 
