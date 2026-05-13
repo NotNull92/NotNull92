@@ -250,7 +250,7 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
-### [unity-agent-cli](https://github.com/NotNull92/unity-agent-cli) — Open Source
+### [hera-agent](https://github.com/NotNull92/hera-agent) — Open Source
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
@@ -260,36 +260,36 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 <img src="https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge" alt="Released" />
 </p>
 
-> One binary. Zero dependencies. Direct HTTP bridge to Unity Editor.
+> Measurement, not guessing — give AI hands on the live Editor.
 
 An open-source CLI tool that lets AI agents and terminals control Unity Editor directly. A single Go binary communicates with Unity over localhost HTTP, and the Unity-side connector starts automatically when the editor launches.
 
-- **Go CLI** — 20 files, ~800 LOC — command parsing, HTTP client, instance discovery
-- **C# Connector** — 22 files, ~2,300 LOC — auto tool registration via `[UnityCliTool]` attribute
-- **Core Commands** — `editor play`, `test`, `status`, `exec`, `console`, `update`
+- **Go CLI** — ~800 LOC — command parsing, HTTP client, instance discovery
+- **C# Connector** — ~2,300 LOC — auto tool registration via `[HeraTool]` attribute
+- **Core Commands** — `editor`, `exec`, `console`, `test`, `menu`, `screenshot`, `profiler`, `reserialize`, `list`, `status`, `update`
 - **Architecture** — Stateless single-shot HTTP, zero runtime dependencies, cross-platform (Linux/macOS/Windows)
 
 ---
 
-### [unity-agent-cli-pro](https://github.com/NotNull92/unity-agent-cli-pro) — Pro Version
+### [hera-agent-pro](https://github.com/NotNull92/hera-agent-pro) — Pro Version
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
 <img src="https://img.shields.io/badge/Connector-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/Protocol-HTTP-FF6B6B?style=for-the-badge" alt="HTTP" />
 <img src="https://img.shields.io/badge/License-Commercial-red?style=for-the-badge" alt="Commercial" />
-<img src="https://img.shields.io/badge/Status-v0.0.12-22C55E?style=for-the-badge" alt="v0.0.12" />
+<img src="https://img.shields.io/badge/Status-v0.0.23-22C55E?style=for-the-badge" alt="v0.0.23" />
 </p>
 
 > One binary. Zero dependencies. Direct HTTP bridge to Unity Editor.
 
-The pro version of unity-agent-cli. Offers an extended toolset, asset plugin configuration management, self-update system, and improved TUI.
+The pro version of hera-agent. Offers an extended toolset, asset plugin configuration management, introspection commands, batch execution, and improved TUI.
 
-- **Go CLI** — 27 files, ~3,400 LOC — asset config, version check, advanced TUI helpers
-- **C# Connector** — 23 files, ~5,100 LOC — `[HeraAgentPro]` attribute, built-in tools schema, test runner
-- **Additional Features** — Asset plugin config persistence, periodic update notice (12h), self-update from GitHub releases
+- **Go CLI** — ~3,400 LOC — asset config, version check, introspection, batch, advanced TUI helpers
+- **C# Connector** — ~5,100 LOC — `[HeraTool]` attribute, built-in tools schema, test runner, Unity pitfalls catalog
+- **Additional Features** — Asset plugin config persistence, introspection (`describe_type`, `list_assemblies`, `find_method`), batch multi-command execution, `exec --check` compile-only mode, periodic update notice (12h), self-update from GitHub releases
 - **Release** — Cross-build 5 targets (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
-- **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution
+- **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution, profiler analysis
 
 <details>
 <summary><b>⚙️ Engineering Highlights</b></summary>
@@ -297,6 +297,7 @@ The pro version of unity-agent-cli. Offers an extended toolset, asset plugin con
 
 - Harness engineering applied — testable architecture with clean separation of concerns
 - Orchestration layer for cross-process state coordination between Go CLI and Unity Editor
+- Filesystem-based instance protocol survives domain reload via heartbeat files
 - Unity Mono runtime coding guidelines enforced for code correctness
 - Cross-platform release pipeline (Linux/macOS/Windows, amd64/arm64)
 
