@@ -54,7 +54,7 @@
 
 > **Victor** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
 
-Unity/C# Developer with **6+ years** of professional experience in live-service mobile MMORPG development. Contributed to projects generating **₩40B+ annual revenue** (Bluepotion Games, Vanco). Specialized in content development, UI/UX programming, and network protocol implementation for large-scale production environments.
+Unity/C# Developer with **6+ years** of professional experience in live-service mobile MMORPG development. Contributed to projects generating **₩40B+ annual revenue** (Bluepotion Games, Banco). Specialized in content development, UI/UX programming, and network protocol implementation for large-scale production environments.
 
 - 🏢 **Current Role** — Content & Systems Developer on a **live-service mobile MMORPG** (6th year)
 - 🎲 **Solo Project** — Building [NoMoreRolls](https://github.com/NotNull92), a dice-based roguelike with moral choice mechanics
@@ -87,7 +87,7 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 **₩40B+ Annual Revenue**
 
 - Bluepotion Games — shipped & maintained
-- Vanco — shipped & maintained
+- Banco — shipped & maintained
 - Monetization systems & live-ops pipelines
 - Cross-functional collaboration in large dev teams
 
