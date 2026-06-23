@@ -54,12 +54,12 @@
 
 > **Victor** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
 
-Unity/C# Developer with **6+ years** of professional experience in live-service mobile MMORPG development. Contributed to projects generating **₩40B+ annual revenue** (Bluepotion Games, Banco). Specialized in content development, UI/UX programming, and network protocol implementation for large-scale production environments.
+Unity/C# engineer with **6+ years** in live-service mobile MMORPG production. I build gameplay systems, editor tooling, UI flows, and AI-assisted Unity pipelines that are measured inside the real Editor instead of guessed from static code.
 
-- 🏢 **Current Role** — Content & Systems Developer on a **live-service mobile MMORPG** (6th year)
-- 🎲 **Solo Project** — Building [NoMoreRolls](https://github.com/NotNull92), a dice-based roguelike with moral choice mechanics
-- 🎯 **Goal** — Achieve financial independence through solo indie game & app development
-- 🏋️ When not coding — weight training, anime, ETF investing, and gaming
+- 🏢 **Production** — shipped and maintained live-service systems on revenue-scale MMORPG projects
+- 🎲 **Solo Game** — building [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls), a dice-combat roguelike about violence, empathy, and consequence
+- 🛠️ **Tooling** — building [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity), a low-token Unity control layer for AI coding agents
+- 🎒 **Prototype Lab** — building [Inventoria](https://github.com/NotNull92/Inventoria), a backpack-defense RPG prototype with deterministic simulation
 
 ---
 
@@ -74,32 +74,32 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 <tr>
 <td valign="top">
 
-**6th Year | Content & Systems**
+**Live-Service Systems**
 
-- Content development for large-scale mobile MMORPG
-- UI/UX programming & system architecture
-- Network protocol design & implementation
-- Real-time live operations at scale
-
-</td>
-<td valign="top">
-
-**₩40B+ Annual Revenue**
-
-- Bluepotion Games — shipped & maintained
-- Banco — shipped & maintained
-- Monetization systems & live-ops pipelines
-- Cross-functional collaboration in large dev teams
+- Unity/C# gameplay and content implementation
+- UI/UX systems for repeated live-operation workflows
+- Network protocol implementation and production debugging
+- Hotfix-minded development under real service constraints
 
 </td>
 <td valign="top">
 
-**Production-Grade Skills**
+**Revenue-Scale Production**
 
-- Unity/C# architecture & optimization
-- Live-service operations & hotfix pipelines
-- Complex UI systems & state management
-- Network protocol implementation
+- Contributed to titles generating **₩40B+ annual revenue**
+- Shipped and maintained work at Bluepotion Games / Banco
+- Balanced feature delivery, stability, and live-ops pressure
+- Collaborated across design, art, QA, backend, and operations
+
+</td>
+<td valign="top">
+
+**Builder Profile**
+
+- Turns game design into maintainable runtime systems
+- Uses agent tooling to compress iteration loops
+- Prefers observable Editor verification over speculation
+- Ships solo projects with production engineering habits
 
 </td>
 </tr>
@@ -109,70 +109,52 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ## 🎮 Projects
 
-### NoMoreRolls — In Development
+### [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls) — Solo Game
 
 <p align="center">
 <img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
 <img src="https://img.shields.io/badge/Genre-Roguelike_(Dice_Based)-FF6B6B?style=for-the-badge" alt="Roguelike" />
 <img src="https://img.shields.io/badge/Platform-Steam_(PC)-1B2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
 <img src="https://img.shields.io/badge/Team-Solo_Dev-FFA500?style=for-the-badge" alt="Solo Dev" />
-<img src="https://img.shields.io/badge/Status-BIC_2026_Polishing-22C55E?style=for-the-badge" alt="BIC 2026 Polishing" />
+<img src="https://img.shields.io/badge/Status-Active_Polish-22C55E?style=for-the-badge" alt="Active Polish" />
 </p>
 
-> 🎲 *Undertale's moral combat choices translated into dice poker mechanics — a solo-developed roguelike.*
-> Every encounter is a choice: **Fight** or **Talk**. The same dice, the same hands — but divergent meaning.
+> Dice poker combat where the same roll can become violence or empathy.
+> Built as a full solo Unity project, with combat logic, UI direction, localization, accessibility, persistence, and editor automation handled end to end.
 
 <details>
-<summary><b>⚔️ Core Systems (148 Scripts, ~22K LOC)</b></summary>
+<summary><b>⚔️ Core Systems</b></summary>
 <br>
 
-- **PedigreeManager** — 10-tier dice hand ranking (HighCard → MonoRoll) + dual damage/empathy calculation
-- **TalkManager** — Empathy gauge, per-enemy condition puzzles (7 switch types), dialogue branching
-- **BattleManager SubSM** — 11-state turn-based combat FSM (Intro → RouteSelect → Dice → Hand → Resolve → TurnEnd)
-- **DiceSlotManager** — 5-slot equip/swap/inventory system (Basic/Unique/Enhanced 3-tier dice)
-- **SoulGimmick System** — 10 unique soul gimmicks via ISoulGimmickHandler interface + Factory pattern (Bell, Ember, Gavel, Hollow, Palette, Phonograph, Roulette, Scribe, Seven, TheDealer)
-- **CorridorState** — 22-node fixed corridor progression (Battle/Elite/Boss/Rest/Event/Exit)
-- **Fight/Talk Symmetric Routes** — Identical dice-hand loop diverges into attack vs. empathy outcomes
-- **EnemyWeakness System** — Visual badge + puzzle-based weakness hints with dynamic bias mechanics
-- **MemoryFragment** — Consumable cross-run item system with FragmentEffectHelper
-- **EmotionalStateTracker** → BattleAtmosphereController + DynamicUITintController + EnemyExpressionController
-- **FlashbackManager** — Micro/short/long 3-tier flashback cinematic sequences
-- **CrossRunSaveManager** — JSON-based persistence with meta-event tracking
-- **MetaEventManager** — Per-run title logo/subtitle changes + Dealer typing direction
-- **True Ending Route** — Unlocked by achieving both Fight & Talk endings
-- **LocalizationManager** — KO/EN/JA/RU 4-language support with static UI translation
-- **AccessibilityManager** — Motion reduction, colorblind overlay, visual sound indicator, font scaler
+- **Dice Combat** — 10-tier hand evaluation, reroll economy, damage/empathy dual resolution, and enemy weakness puzzles
+- **Fight / Talk Routes** — one dice loop that branches into attack outcomes or empathy conditions
+- **Battle FSM** — intro, route select, dice, hand select, resolve, reward, defeat, and turn-end states split into focused state classes
+- **Soul Gimmicks** — handler/factory architecture for Bell, Ember, Gavel, Hollow, Palette, Phonograph, Roulette, Scribe, Seven, and The Dealer
+- **Run Structure** — corridor progression, rest/event nodes, memory fragments, cross-run persistence, meta events, and true-ending unlock logic
+- **Localization & Accessibility** — KO/EN/JA/RU UI localization, motion reduction, colorblind overlay, visual sound indicator, and font scaling
 
 </details>
 
 <details>
-<summary><b>🎨 UI & Direction</b></summary>
+<summary><b>🎨 UI / Game Feel</b></summary>
 <br>
 
-- **CombatUIController** — Unified battle HUD (hand selection, reroll, route choice, results)
-- **PlayerAttackDirector** — 3-phase attack sequence (popup → icon flight → hit flash)
-- **EmotionGaugeUI** — DOTween heart gauge animations + empathy label
-- **HandGuidePanel** — 2-row scrollable hand reference guide (TAB toggle, dice highlight)
-- **DoorSlotUI** — Per-state door sprites + pulse animation + companion display
-- **RouteSelectUI** — Fight/Talk selection with description tooltips + enemy dialogue bubbles
-- **BattleResultPanelUI** — Victory reward selection with golden effect text
-- **ScreenOverlayController** — Damage flash, vignette, chromatic aberration
-- **GimmickGuideUI** — In-battle gimmick mechanic explanation panel
-- **WeaknessIconUI** — Dynamic weakness hint badge system
+- Unified combat HUD with hand selection, reroll controls, route choice, reward panels, and in-battle guides
+- Directed attack feedback using popup, icon flight, hit flash, screen overlay, and enemy expression changes
+- Tooltip-heavy onboarding for dice hands, reward stats, enemy weakness hints, and gimmick explanations
+- Recent polish on reward UI simplification, inventory refresh behavior, icon readability, and dialogue/control friction
 
 </details>
 
 <details>
-<summary><b>🔄 Recent Major Updates (2026.04–05)</b></summary>
+<summary><b>🔄 Recent Work</b></summary>
 <br>
 
-- **BIC 2026 Polishing** — 6-phase polishing plan (Code stabilization → Onboarding UX → Combat polish → Build stabilization → Submission)
-- **Playtest Feedback Applied** — ESC→Pause menu, Space+Click dialogue, Name input back button, Battle onboarding guide, Reward stat tooltips
-- **Seven NumberLock Redesign** — Visual badge system + `seven_reverse` sub-gimmick + dynamic reroll cost
-- **Enemy Weakness System** — Full implementation with hint/puzzle mechanics + event/rest reward overhaul
-- **Singleton Refactor** — Manager/Controller-only singletons, Inspector-assigned references
-- **ParlorScene Hierarchy Cleanup** — Object renaming + structural reorganization
-- **Hera Agent Pro Upgrade** — Unity MCP integration for AI-driven development
+- Simplified battle reward UI and tightened inventory/icon refresh behavior
+- Refactored `GameContext` emotion gauge events and dialogue sequencing utilities
+- Consolidated ScriptableObject generator helpers and player stat copy flow
+- Polished reaction captions, high-dice terminology, pause/dialogue/name-input UX, and reward stat tooltips
+- Uses `hera-agent-unity` in the project package manifest for live Editor checks during agent-assisted development
 
 </details>
 
@@ -196,129 +178,104 @@ Unity/C# Developer with **6+ years** of professional experience in live-service 
 
 ---
 
-### Mental Robo — Released
+### [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity) — Open Source Unity Agent CLI
 
 <p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Genre-Rhythm_%2B_Talk_Show-FF6B6B?style=for-the-badge" alt="Rhythm + Talk Show" />
-<img src="https://img.shields.io/badge/Platform-PC_(Windows)-0078D4?style=for-the-badge" alt="PC" />
-<img src="https://img.shields.io/badge/Team-3_People-FFA500?style=for-the-badge" alt="3 People" />
-<img src="https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge" alt="Released" />
-</p>
-
-> 🎤 *A comedy robot stand-up game combining rhythm input with a talk show.*
-> Read the crowd. Pick the right joke. Nail the timing. Become the greatest comedian robot.
-> Built in **48 hours** for **Global Game Jam 2024** — theme: *"Make Me Laugh"*
-
-<details>
-<summary><b>⚔️ Systems</b></summary>
-<br>
-
-- **Rhythm Input** — Timing window based directional key judgment
-- **Joke Topic Branching** — 3 choices: trendy jokes, dad jokes, bathroom humor
-- **Audience AI** — Per-topic affinity calculation + real-time score feedback
-- **Crowd Reading Puzzle** — Analyze audience profiles ("40-something males", "mostly managers") → strategic topic selection
-- **Game Flow** — Stand-up progression → topic selection → rhythm input → scoring
-
-</details>
-
-<details>
-<summary><b>🎨 Art & Direction</b></summary>
-<br>
-
-- Pixel art robot character + stage background (red curtain, spotlight)
-- Audience silhouette + reaction animations
-- Joke topic button UI
-- Audience profile hint system
-
-</details>
-
-<details>
-<summary><b>🔗 Links & Info</b></summary>
-<br>
-
-| Info | Detail |
-|------|--------|
-| **Event** | Global Game Jam 2024 @Seoul (Zempie) |
-| **Duration** | 48 hours |
-| **Role** | Main developer — all core systems |
-| **Tech** | Unity, C#, Git |
-| **Repo** | [GitHub](https://github.com/MrBadToast/GGJ2024) |
-| **Game Jam Page** | [GGJ 2024](https://globalgamejam.org/games/2024/mental-robo-2) |
-
-</details>
-
----
-
-### [hera-agent](https://github.com/NotNull92/hera-agent) — Open Source
-
-<p align="center">
-<img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Connector-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/Protocol-HTTP-FF6B6B?style=for-the-badge" alt="HTTP" />
+<img src="https://img.shields.io/badge/CLI-Go_1.25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Unity-2022.3%2B-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/Package-C%23_Editor-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" />
-<img src="https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge" alt="Released" />
+<img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" alt="Active" />
 </p>
 
-> Measurement, not guessing — give AI hands on the live Editor.
+> Low-token Unity Editor control for AI coding agents.
+> Gives Codex, Claude, Cursor, Copilot, and similar agents a measurable path through the real Unity Editor: status, console, C# execution, Play Mode, scene inspection, UI capture, tests, and screenshots.
 
-An open-source CLI tool that lets AI agents and terminals control Unity Editor directly. A single Go binary communicates with Unity over localhost HTTP, and the Unity-side connector starts automatically when the editor launches.
+<details>
+<summary><b>🚀 Release Highlights</b></summary>
+<br>
 
-- **Go CLI** — ~800 LOC — command parsing, HTTP client, instance discovery
-- **C# Connector** — ~2,300 LOC — auto tool registration via `[HeraTool]` attribute
-- **Core Commands** — `editor`, `exec`, `console`, `test`, `menu`, `screenshot`, `profiler`, `reserialize`, `list`, `status`, `update`
-- **Architecture** — Stateless single-shot HTTP, zero runtime dependencies, cross-platform (Linux/macOS/Windows)
+- **Unity Version Coverage** — separately checked on Unity 2022.3 LTS, 2023.2, 6000.3, and 6000.5
+- **Token-Saving Protocol** — compact tool list at 93 tokens and object ID handoff around 49-55 tokens in benchmark docs
+- **No Server Setup** — one Go binary plus a Unity package; no Python server, no generated MCP config
+- **Agent-Facing Commands** — `status`, `doctor`, `list --compact`, `console`, `exec`, `editor play`, `scene info`, `ui_doc`, `test`, `screenshot`, `batch`
+- **Ultra Hera** — light checks by default, stricter Unity verification when the task demands it
+
+</details>
+
+<details>
+<summary><b>🧱 Engineering</b></summary>
+<br>
+
+- Go CLI with Bubble Tea / Lip Gloss TUI pieces, version checks, install/update flows, and cross-platform path handling
+- Unity Editor connector with HTTP routing, heartbeat state, command discovery, asset config UI, and tool registration
+- Tests around command dispatch, doctor/status/update/install paths, client behavior, polling, asset config, HTML-to-UI conversion, and Unity docs tooling
+- Docs emphasize measurable Editor verification, token economy, agent rules, and repeatable benchmark evidence
+
+</details>
 
 ---
 
-### [hera-agent-pro](https://github.com/NotNull92/hera-agent-pro) — Pro Version
+### [Inventoria](https://github.com/NotNull92/Inventoria) — Backpack Defense RPG Prototype
 
 <p align="center">
-<img src="https://img.shields.io/badge/Engine-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Connector-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/Protocol-HTTP-FF6B6B?style=for-the-badge" alt="HTTP" />
-<img src="https://img.shields.io/badge/License-Commercial-red?style=for-the-badge" alt="Commercial" />
-<img src="https://img.shields.io/badge/Status-v0.0.23-22C55E?style=for-the-badge" alt="v0.0.23" />
+<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/Genre-Backpack_Defense-FF6B6B?style=for-the-badge" alt="Backpack Defense" />
+<img src="https://img.shields.io/badge/Architecture-asmdef_Modules-512BD4?style=for-the-badge" alt="asmdef Modules" />
+<img src="https://img.shields.io/badge/Systems-Grid_%2B_Combat-22C55E?style=for-the-badge" alt="Grid + Combat" />
+<img src="https://img.shields.io/badge/Status-Prototype-FFA500?style=for-the-badge" alt="Prototype" />
 </p>
 
-> One binary. Zero dependencies. Direct HTTP bridge to Unity Editor.
-
-The pro version of hera-agent. Offers an extended toolset, asset plugin configuration management, introspection commands, batch execution, and improved TUI.
-
-- **Go CLI** — ~3,400 LOC — asset config, version check, introspection, batch, advanced TUI helpers
-- **C# Connector** — ~5,100 LOC — `[HeraTool]` attribute, built-in tools schema, test runner, Unity pitfalls catalog
-- **Additional Features** — Asset plugin config persistence, introspection (`describe_type`, `list_assemblies`, `find_method`), batch multi-command execution, `exec --check` compile-only mode, periodic update notice (12h), self-update from GitHub releases
-- **Release** — Cross-build 5 targets (linux/darwin × amd64/arm64, windows amd64) via GitHub Actions
-- **Used in NoMoreRolls Development** — Unity Editor automation, scene control, test execution, profiler analysis
+> A Unity 6 prototype exploring backpack inventory strategy, tower-defense style combat, and modular simulation code.
 
 <details>
-<summary><b>⚙️ Engineering Highlights</b></summary>
+<summary><b>🎒 Gameplay Systems</b></summary>
 <br>
 
-- Harness engineering applied — testable architecture with clean separation of concerns
-- Orchestration layer for cross-process state coordination between Go CLI and Unity Editor
-- Filesystem-based instance protocol survives domain reload via heartbeat files
-- Unity Mono runtime coding guidelines enforced for code correctness
-- Cross-platform release pipeline (Linux/macOS/Windows, amd64/arm64)
+- **Grid Inventory** — item placement, flattening, adjacency, simulation input, stat resolution, and synergy evaluation
+- **Combat Simulation** — battle simulator, wave director, monster runtime, wall system, buffs, damage pipeline, weapon runtime, boss logic, and mana emblems
+- **Loadout Flow** — lobby, gear, loadout, battle, result states with separated panels and controller logic
+- **Progression Services** — save service, reward service, growth service, codex service, shop service, recipe service, and catalog/registry layer
 
 </details>
+
+<details>
+<summary><b>🧩 Recent Work</b></summary>
+<br>
+
+- Shop slots, ad slots, panel isolation, and storage return behavior for the loadout screen
+- Grid-inventory behavior for storage with fixes for duplicate drops, z-order, and multi-cell item sizing
+- Addressables-oriented turret wiring, item icon wiring, battle FX wiring, and editor-side save tools
+- `Game.Core`, `Game.Combat`, `Game.UI`, and `Game.Editor` assembly boundaries for faster iteration
+
+</details>
+
+---
+
+### Current Focus
+
+| Track | What I am building | Why it matters |
+|:---|:---|:---|
+| **Game** | `NoMoreRolls` combat, rewards, onboarding, and polish | A complete solo game with a distinct mechanical identity |
+| **Tooling** | `hera-agent-unity` agent verification and Unity automation | Faster, safer Unity iteration for human + AI workflows |
+| **Prototype** | `Inventoria` grid/loadout/combat loop | Rapid design exploration backed by deterministic systems |
 
 ---
 
 ## 🤖 AI & Tooling
 
 <details>
-<summary><b>🔧 AI-Powered Development Workflow</b></summary>
+<summary><b>🔧 Measured AI-Assisted Development</b></summary>
 <br>
 
-I leverage AI tools and the **Model Context Protocol (MCP)** ecosystem to supercharge my development workflow:
+I use AI agents as execution partners, but the workflow is built around verification:
 
 | Tool | Purpose |
 |------|---------|
-| **Claude Desktop** | AI-assisted coding, architecture planning, code review |
-| **Claude Code CLI** | Terminal-based AI pair programming |
-| **[Open-Code](https://github.com/anomalyco/opencode)** | Open-source AI coding assistant |
-| **[Hermes Agent](https://github.com/nousresearch/hermes-agent)** | Autonomous AI agent framework by Nous Research |
+| **Codex / Claude Code** | implementation, refactoring, debugging, review loops |
+| **hera-agent-unity** | live Unity Editor status, console, Play Mode, tests, screenshots |
+| **Git / GitHub** | small commits, reproducible diffs, release notes, issue-backed work |
+| **Obsidian / Notion** | design notes, production checklists, project memory |
 
 </details>
 
@@ -334,7 +291,7 @@ Hobbies:
   - Anime & Manga
   - ETF Investing
   - Gaming
-Motto: "Build the life you want — one commit at a time."
+Motto: "Measure the system, ship the build."
 ```
 
 ## 🛠️ Tech Stack
