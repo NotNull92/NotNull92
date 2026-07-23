@@ -1,11 +1,8 @@
 <div align="center">
 
-  <!-- Typing SVG -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Victor+%7C+NotNull92;Unity+C%23+%7C+6%2B+Years;Live-Service+MMORPG+Developer;Building+NoMoreRolls+%F0%9F%8E%B2" alt="Typing SVG" />
-  </a>
+  <img src=".github/assets/tagline-en.svg" width="100%" alt="I create games that inspire, resonate deeply, and stay with people long after the final screen fades." />
 
-  <br/><br/>
+  <br/>
 
   <!-- Profile Views + Badges -->
   <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />

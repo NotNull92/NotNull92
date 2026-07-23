@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-labelledby="title desc">
+  <title id="title">Game creator statement</title>
+  <desc id="desc">I create games that inspire, resonate deeply, and stay with people long after the final screen fades.</desc>
+
+  <defs>
+    <style>
+      .stop-cyan { stop-color: #057A8D; }
+      .stop-blue { stop-color: #0969DA; }
+      .stop-violet { stop-color: #8250DF; }
+      .stop-pink { stop-color: #A40E4C; }
+      .line-edge { stop-color: #0969DA; }
+      .line-core { stop-color: #8250DF; }
+      .accent { fill: #0969DA; }
+
+      @media (prefers-color-scheme: dark) {
+        .stop-cyan { stop-color: #67E8F9; }
+        .stop-blue { stop-color: #58A6FF; }
+        .stop-violet { stop-color: #A78BFA; }
+        .stop-pink { stop-color: #F0ABFC; }
+        .line-edge { stop-color: #67E8F9; }
+        .line-core { stop-color: #A78BFA; }
+        .accent { fill: #67E8F9; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate { display: none; }
+        .tagline-group { opacity: 1; }
+        .moving-accent { opacity: 0; }
+      }
+    </style>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop class="stop-cyan" offset="0%"/>
+      <stop class="stop-blue" offset="32%"/>
+      <stop class="stop-violet" offset="66%"/>
+      <stop class="stop-pink" offset="100%"/>
+      <animate attributeName="x1" values="-35%;0%;-35%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="65%;100%;65%" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop class="line-edge" offset="0%" stop-opacity="0"/>
+      <stop class="line-core" offset="50%" stop-opacity=".9"/>
+      <stop class="line-edge" offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g class="tagline-group" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    <text
+      x="600"
+      y="62"
+      text-anchor="middle"
+      fill="url(#text-gradient)"
+      filter="url(#soft-glow)"
+      font-family="Segoe UI, Inter, Arial, sans-serif"
+      font-size="25"
+      font-weight="600"
+      letter-spacing=".25">
+      I create games that inspire, resonate deeply, and stay with people long after the final screen fades.
+    </text>
+    <rect x="300" y="88" width="600" height="2" rx="1" fill="url(#line-gradient)">
+      <animate attributeName="width" values="0;600" dur="1.4s" fill="freeze"/>
+      <animate attributeName="x" values="600;300" dur="1.4s" fill="freeze"/>
+    </rect>
+    <circle class="accent moving-accent" cx="300" cy="89" r="3">
+      <animate attributeName="cx" values="300;900;300" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
