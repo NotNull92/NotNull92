@@ -68,13 +68,16 @@
 
 <sub>비공개 소스 · 프로토타입 · [공개 게임 소개](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
-### NoMoreRolls · 같은 주사위, 싸울지 대화할지의 선택
+### <img src=".github/assets/icon-nomorerolls.png" height="32" alt="" /> NoMoreRolls · 같은 주사위, 싸울지 대화할지의 선택
 
 주사위를 굴린 뒤 싸울지 대화할지 고릅니다. 같은 주사위 결과를 두 방식에 사용할 수 있어, 매 턴 상대를 어떻게 마주할지 선택하는 게임입니다.
 
 **Unity / C#**으로 혼자 개발하며 전투 흐름, 대화, 보상, 저장, **한국어·영어·일본어·러시아어 UI**, 접근성 설정을 구현했습니다. 최근에는 전투 후 주사위를 받는 과정을 간소화하고 인벤토리 갱신 문제를 고쳤습니다. 게임은 아직 개발 중입니다.
 
 **이 프로젝트에서 하는 일:** 게임 규칙과 대화, 화면을 하나의 플레이 흐름으로 연결하고, 플레이어가 이해하기 쉽게 다듬습니다.
+
+<img src=".github/assets/shot-nomorerolls-01.png" width="300" alt="NoMoreRolls 게임 화면. 상대 세븐 옆에 다섯 개의 주사위가 놓여 있고, 주사위 잠금 표시와 체력, 이전 굴림 기록, 공격 및 다시 굴리기 버튼이 보입니다." /><br/>
+<sub>개발 중 보관 플레이 영상에서 추출한 화면 · 2026-10-26 자료 확인</sub>
 
 <sub>비공개 소스 · 개발 중 · 최근 원격 작업: 2026년 6월 · 같은 엔진을 위한 개발 도구 → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
 

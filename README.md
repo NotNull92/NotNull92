@@ -68,13 +68,16 @@ This **browser prototype** tests whether puzzle decisions carry over into combat
 
 <sub>Private source · Prototype · [Public game introductions](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
-### NoMoreRolls · One roll, a choice between fighting and talking
+### <img src=".github/assets/icon-nomorerolls.png" height="32" alt="" /> NoMoreRolls · One roll, a choice between fighting and talking
 
 Roll the dice, then choose whether to fight or talk. The same dice result can be used for either approach, so each turn asks you to decide how to face your opponent.
 
 I'm building this solo project in **Unity / C#**. I implemented the combat flow, dialogue, rewards, saving, **UI support for Korean, English, Japanese, and Russian**, and accessibility settings. Recent work simplified collecting dice after battle and fixed inventory updates. The game is still in development.
 
 **What this shows:** connecting game rules, dialogue, and player-facing screens into a playable flow, then making that flow easier to follow.
+
+<img src=".github/assets/shot-nomorerolls-01.png" width="300" alt="NoMoreRolls in-game screen: the opponent Seven stands beside five dice, with locked dice, health bars, previous rolls, and attack and reroll controls visible." /><br/>
+<sub>Archived in-development gameplay video frame · Verified 2026-10-26</sub>
 
 <sub>Private source · In development · Latest remote work: June 2026 · Development tools for the same engine → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
 
