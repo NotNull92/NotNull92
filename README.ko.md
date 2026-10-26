@@ -77,7 +77,7 @@
 **이 프로젝트에서 하는 일:** 게임 규칙과 대화, 화면을 하나의 플레이 흐름으로 연결하고, 플레이어가 이해하기 쉽게 다듬습니다.
 
 <a href="https://youtu.be/kqOMakdCoEc"><img src=".github/assets/shot-nomorerolls-01.png" width="300" alt="NoMoreRolls 게임 화면. 상대 세븐 옆에 다섯 개의 주사위가 놓여 있고, 주사위 잠금 표시와 체력, 이전 굴림 기록, 공격 및 다시 굴리기 버튼이 보입니다. 클릭하면 YouTube 플레이 영상으로 이동합니다." /></a><br/>
-<sub>개발 중 보관 플레이 영상에서 추출한 화면 · 2026-10-26 자료 확인 · [YouTube에서 보기](https://youtu.be/kqOMakdCoEc)</sub>
+<sub>보관 중인 프로토타입 데모 영상의 한 장면이며 최신 빌드가 아닙니다 · 2026-10-26 자료 확인 · [YouTube에서 보기](https://youtu.be/kqOMakdCoEc)</sub>
 
 <sub>비공개 소스 · 개발 중 · 최근 원격 작업: 2026년 6월 · 같은 엔진을 위한 개발 도구 → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
 

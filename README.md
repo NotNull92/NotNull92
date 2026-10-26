@@ -77,7 +77,7 @@ I'm building this solo project in **Unity / C#**. I implemented the combat flow,
 **What this shows:** connecting game rules, dialogue, and player-facing screens into a playable flow, then making that flow easier to follow.
 
 <a href="https://youtu.be/kqOMakdCoEc"><img src=".github/assets/shot-nomorerolls-01.png" width="300" alt="NoMoreRolls in-game screen: the opponent Seven stands beside five dice, with locked dice, health bars, previous rolls, and attack and reroll controls visible. Opens the gameplay video on YouTube." /></a><br/>
-<sub>Archived in-development gameplay video frame · Verified 2026-10-26 · [Watch on YouTube](https://youtu.be/kqOMakdCoEc)</sub>
+<sub>Frame from the archived prototype demo video, not the latest build · Verified 2026-10-26 · [Watch on YouTube](https://youtu.be/kqOMakdCoEc)</sub>
 
 <sub>Private source · In development · Latest remote work: June 2026 · Development tools for the same engine → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
 
@@ -87,7 +87,7 @@ I'm building this solo project in **Unity / C#**. I implemented the combat flow,
 **Inventoria · Unity / C# prototype**<br/>
 A backpack-defense RPG where how you arrange items changes how a battle plays out. I built the inventory, combat simulation, progression, and saving. In August 2026 I added companion hiring and improved battle pacing and text display.
 
-Private source. Development tools for the same engine → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
+The source is private. Development tools for the same engine → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
 </details>
 
