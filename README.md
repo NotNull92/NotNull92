@@ -68,16 +68,23 @@ This **browser prototype** tests whether puzzle decisions carry over into combat
 
 <sub>Private source · Prototype · [Public game introductions](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
+### NoMoreRolls · One roll, a choice between fighting and talking
+
+Roll the dice, then choose whether to fight or talk. The same dice result can be used for either approach, so each turn asks you to decide how to face your opponent.
+
+I'm building this solo project in **Unity / C#**. I implemented the combat flow, dialogue, rewards, saving, **UI support for Korean, English, Japanese, and Russian**, and accessibility settings. Recent work simplified collecting dice after battle and fixed inventory updates. The game is still in development.
+
+**What this shows:** connecting game rules, dialogue, and player-facing screens into a playable flow, then making that flow easier to follow.
+
+<sub>Private source · In development · Latest remote work: June 2026 · Development tools for the same engine → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
+
 <details>
 <summary><b>More game work · SIDE QUESTS</b></summary>
-
-**NoMoreRolls · Unity / C# solo game**<br/>
-A dice-combat game where the same roll can lead to a fight or a conversation. I built the combat flow, rewards, saving, a four-language UI, and accessibility settings. The latest remote work is from June 2026.
 
 **Inventoria · Unity / C# prototype**<br/>
 A backpack-defense RPG where how you arrange items changes how a battle plays out. I built the inventory, combat simulation, progression, and saving. In August 2026 I added companion hiring and improved battle pacing and text display.
 
-Both source repositories are private. Development tools for the same engine → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
+Private source. Development tools for the same engine → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
 </details>
 

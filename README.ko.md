@@ -68,16 +68,23 @@
 
 <sub>비공개 소스 · 프로토타입 · [공개 게임 소개](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
+### NoMoreRolls · 같은 주사위, 싸울지 대화할지의 선택
+
+주사위를 굴린 뒤 싸울지 대화할지 고릅니다. 같은 주사위 결과를 두 방식에 사용할 수 있어, 매 턴 상대를 어떻게 마주할지 선택하는 게임입니다.
+
+**Unity / C#**으로 혼자 개발하며 전투 흐름, 대화, 보상, 저장, **한국어·영어·일본어·러시아어 UI**, 접근성 설정을 구현했습니다. 최근에는 전투 후 주사위를 받는 과정을 간소화하고 인벤토리 갱신 문제를 고쳤습니다. 게임은 아직 개발 중입니다.
+
+**이 프로젝트에서 하는 일:** 게임 규칙과 대화, 화면을 하나의 플레이 흐름으로 연결하고, 플레이어가 이해하기 쉽게 다듬습니다.
+
+<sub>비공개 소스 · 개발 중 · 최근 원격 작업: 2026년 6월 · 같은 엔진을 위한 개발 도구 → <a href="https://github.com/NotNull92/hera-agent-unity">Hera for Unity</a></sub>
+
 <details>
 <summary><b>다른 게임 작업 · SIDE QUESTS</b></summary>
-
-**NoMoreRolls · Unity / C# 솔로 게임**<br/>
-같은 주사위 결과로 싸울 수도, 대화할 수도 있는 전투 게임입니다. 전투 흐름, 보상, 저장, 4개 언어 UI, 접근성 설정을 만들었습니다. 원격 저장소의 마지막 작업은 2026년 6월입니다.
 
 **Inventoria · Unity / C# 프로토타입**<br/>
 가방에 아이템을 어떻게 놓느냐에 따라 전투가 달라지는 백팩 디펜스 RPG입니다. 인벤토리, 전투 계산, 성장, 저장을 만들었고, 2026년 8월에는 동료 고용을 추가하고 전투 속도와 글자 표시를 개선했습니다.
 
-두 프로젝트의 소스는 비공개입니다. 같은 엔진을 위한 개발 도구 → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
+소스는 비공개입니다. 같은 엔진을 위한 개발 도구 → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
 </details>
 
