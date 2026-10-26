@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src=".github/assets/studio-cover-motion.svg" width="100%" alt="서울의 저녁을 배경으로 Victor가 앉아 있는 애니메이션풍 작업실. 모니터에는 올마이트의 전투 스케치가, 책상과 선반에는 베놈·그렌라간·올마이트 소품이 놓여 있습니다." />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/studio-cover.jpg" />
+  <img src=".github/assets/studio-cover-motion.svg" width="100%" alt="서울의 저녁을 배경으로 Victor가 앉아 있는 애니메이션풍 작업실. 모니터에는 올마이트의 전투 스케치가, 책상과 선반에는 베놈·그렌라간·올마이트 소품이 놓여 있습니다." />
+</picture>
 
 # Victor · NotNull92
 

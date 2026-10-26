@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src=".github/assets/studio-cover-motion.svg" width="100%" alt="Anime-style illustration of Victor in his Seoul studio at dusk, with an All Might battle sketch on a monitor and Venom, Gurren Lagann, and All Might collectibles." />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/studio-cover.jpg" />
+  <img src=".github/assets/studio-cover-motion.svg" width="100%" alt="Anime-style illustration of Victor in his Seoul studio at dusk, with an All Might battle sketch on a monitor and Venom, Gurren Lagann, and All Might collectibles." />
+</picture>
 
 # Victor · NotNull92
 
