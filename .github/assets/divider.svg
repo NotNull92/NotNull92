@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="presentation" aria-hidden="true">
+  <style>
+    .line { stroke: #2A4374; opacity: .85; }
+    .gem { fill: #B8842C; }
+    @media (prefers-color-scheme: dark) {
+      .line { stroke: #3A5A96; }
+      .gem { fill: #D9A441; }
+    }
+  </style>
+  <line class="line" x1="0" y1="12" x2="576" y2="12" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+  <line class="line" x1="624" y1="12" x2="1200" y2="12" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+  <path class="gem" d="M600 5 L607 12 L600 19 L593 12 Z"/>
+</svg>

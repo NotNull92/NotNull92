@@ -1,305 +1,202 @@
 <div align="center">
 
-  <img src=".github/assets/tagline-en.svg" width="100%" alt="I create games that inspire, resonate deeply, and stay with people long after the final screen fades." />
+<img src=".github/assets/studio-cover.jpg" width="100%" alt="Anime-style illustration of Victor in his Seoul studio at dusk, with an All Might battle sketch on a monitor and Venom, Gurren Lagann, and All Might collectibles." />
 
-  <br/>
+# Victor · NotNull92
 
-  <!-- Profile Views + Badges -->
-  <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Revenue-%E2%82%A940B%2B%20Annual-22C55E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
+### I build games people remember, and tools that help teams make them.
 
-  <br/><br/>
+Game Developer · Unity / C# · Godot · AI Developer Tools<br/>
+Seoul, South Korea
 
-  <!-- Language Switch -->
-  [🇰🇷 한국어](README.ko.md)
+[Email Victor](mailto:fatiger92@gmail.com) · [한국어](README.ko.md) · [Portfolio](https://portfolio-tui-ten.vercel.app/?direct) · [Ember Studio](https://github.com/NotNull92/NotNull92.github.io)
 
 </div>
 
----
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
-<!-- Activity Graph -->
-<div align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
-  </a>
-</div>
+## About · PROFILE
 
-<!-- Stats Row -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=default&hide_border=true" alt="GitHub Streak" />
-  </a>
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-    <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=github&hide_border=true" alt="GitHub Stats" />
-  </a>
-</p>
+<img src=".github/assets/portrait-victor.png" width="120" align="left" hspace="12" vspace="4" alt="2D portrait of Victor: a bust illustration in a charcoal jacket, looking toward the right." />
 
-<!-- Languages Row -->
-<p align="center">
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
-  <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
-  </a>  
-</p>
+I spent **6+ years building and running live-service mobile MMORPGs** at Bluepotion Games and Banco Games. I worked on gameplay, the screens players see, client-server communication, and fixes for games already in players' hands. The projects I contributed to generated **₩40B+ in annual revenue**.
 
----
+Now I'm putting that experience into my own games and open-source developer tools. I work on the game itself, the tools used to make it, and the services that keep it running.
 
-## 👤 About Me
+**Now (October 2026):** Monstel Android play feedback · Hera for Unity v0.3.23 · Hera coding agent development preview
 
-> **Victor** — Seoul, Korea 🇰🇷 | Ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia 🇦🇺
+**Working with others · PARTY:** At Bluepotion Games and Banco Games I worked with design, art, QA, backend, and operations teams to get features into a live service. Hera and WorkForge are public and take issues and pull requests. In August 2026 WorkForge merged an outside contributor's [macOS dashboard port (PR #4)](https://github.com/NotNull92/workforge-mcp/pull/4).
 
-Unity/C# engineer with **6+ years** in live-service mobile MMORPG production. I build gameplay systems, editor tooling, UI flows, and AI-assisted Unity pipelines that are measured inside the real Editor instead of guessed from static code.
+<br clear="left" />
 
-- 🏢 **Production** — shipped and maintained live-service systems on revenue-scale MMORPG projects
-- 🎲 **Solo Game** — building [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls), a dice-combat roguelike about violence, empathy, and consequence
-- 🛠️ **Tooling** — building [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity), a low-token Unity control layer for AI coding agents
-- 🎒 **Prototype Lab** — building [Inventoria](https://github.com/NotNull92/Inventoria), a backpack-defense RPG prototype with deterministic simulation
-
----
-
-## 💼 Professional Experience
-
-<table>
-<tr>
-<th width="33%" align="center">🏰 Live-Service MMORPG</th>
-<th width="33%" align="center">💰 Revenue Impact</th>
-<th width="33%" align="center">🚀 Core Competencies</th>
-</tr>
-<tr>
-<td valign="top">
-
-**Live-Service Systems**
-
-- Unity/C# gameplay and content implementation
-- UI/UX systems for repeated live-operation workflows
-- Network protocol implementation and production debugging
-- Hotfix-minded development under real service constraints
-
-</td>
-<td valign="top">
-
-**Revenue-Scale Production**
-
-- Contributed to titles generating **₩40B+ annual revenue**
-- Shipped and maintained work at Bluepotion Games / Banco
-- Balanced feature delivery, stability, and live-ops pressure
-- Collaborated across design, art, QA, backend, and operations
-
-</td>
-<td valign="top">
-
-**Builder Profile**
-
-- Turns game design into maintainable runtime systems
-- Uses agent tooling to compress iteration loops
-- Prefers observable Editor verification over speculation
-- Ships solo projects with production engineering habits
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎮 Projects
-
-### [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls) — Solo Game
-
-<p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Genre-Roguelike_(Dice_Based)-FF6B6B?style=for-the-badge" alt="Roguelike" />
-<img src="https://img.shields.io/badge/Platform-Steam_(PC)-1B2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
-<img src="https://img.shields.io/badge/Team-Solo_Dev-FFA500?style=for-the-badge" alt="Solo Dev" />
-<img src="https://img.shields.io/badge/Status-Active_Polish-22C55E?style=for-the-badge" alt="Active Polish" />
-</p>
-
-> Dice poker combat where the same roll can become violence or empathy.
-> Built as a full solo Unity project, with combat logic, UI direction, localization, accessibility, persistence, and editor automation handled end to end.
-
-<details>
-<summary><b>⚔️ Core Systems</b></summary>
-<br>
-
-- **Dice Combat** — 10-tier hand evaluation, reroll economy, damage/empathy dual resolution, and enemy weakness puzzles
-- **Fight / Talk Routes** — one dice loop that branches into attack outcomes or empathy conditions
-- **Battle FSM** — intro, route select, dice, hand select, resolve, reward, defeat, and turn-end states split into focused state classes
-- **Soul Gimmicks** — handler/factory architecture for Bell, Ember, Gavel, Hollow, Palette, Phonograph, Roulette, Scribe, Seven, and The Dealer
-- **Run Structure** — corridor progression, rest/event nodes, memory fragments, cross-run persistence, meta events, and true-ending unlock logic
-- **Localization & Accessibility** — KO/EN/JA/RU UI localization, motion reduction, colorblind overlay, visual sound indicator, and font scaling
-
-</details>
-
-<details>
-<summary><b>🎨 UI / Game Feel</b></summary>
-<br>
-
-- Unified combat HUD with hand selection, reroll controls, route choice, reward panels, and in-battle guides
-- Directed attack feedback using popup, icon flight, hit flash, screen overlay, and enemy expression changes
-- Tooltip-heavy onboarding for dice hands, reward stats, enemy weakness hints, and gimmick explanations
-- Recent polish on reward UI simplification, inventory refresh behavior, icon readability, and dialogue/control friction
-
-</details>
-
-<details>
-<summary><b>🔄 Recent Work</b></summary>
-<br>
-
-- Simplified battle reward UI and tightened inventory/icon refresh behavior
-- Refactored `GameContext` emotion gauge events and dialogue sequencing utilities
-- Consolidated ScriptableObject generator helpers and player stat copy flow
-- Polished reaction captions, high-dice terminology, pause/dialogue/name-input UX, and reward stat tooltips
-- Uses `hera-agent-unity` in the project package manifest for live Editor checks during agent-assisted development
-
-</details>
-
-<details>
-<summary><b>🛠️ Tech Stack</b></summary>
-<br>
-
-<p>
-<img src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/DOTween-E84C3D?style=flat-square" alt="DOTween" />
-<img src="https://img.shields.io/badge/Odin_Inspector-1E90FF?style=flat-square" alt="Odin Inspector" />
-<img src="https://img.shields.io/badge/UniTask-6C5CE7?style=flat-square" alt="UniTask" />
-<img src="https://img.shields.io/badge/Hermes_Agent-FF6B6B?style=flat-square&logo=nousresearch&logoColor=white" alt="Hermes Agent" />
-<img src="https://img.shields.io/badge/Claude_Code_CLI-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code CLI" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square" alt="Obsidian" />
-</p>
-
-</details>
-
----
-
-### [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity) — Open Source Unity Agent CLI
-
-<p align="center">
-<img src="https://img.shields.io/badge/CLI-Go_1.25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Unity-2022.3%2B-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Package-C%23_Editor-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" />
-<img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" alt="Active" />
-</p>
-
-> Low-token Unity Editor control for AI coding agents.
-> Gives Codex, Claude, Cursor, Copilot, and similar agents a measurable path through the real Unity Editor: status, console, C# execution, Play Mode, scene inspection, UI capture, tests, and screenshots.
-
-<details>
-<summary><b>🚀 Release Highlights</b></summary>
-<br>
-
-- **Unity Version Coverage** — separately checked on Unity 2022.3 LTS, 2023.2, 6000.3, and 6000.5
-- **Token-Saving Protocol** — compact tool list at 93 tokens and object ID handoff around 49-55 tokens in benchmark docs
-- **No Server Setup** — one Go binary plus a Unity package; no Python server, no generated MCP config
-- **Agent-Facing Commands** — `status`, `doctor`, `list --compact`, `console`, `exec`, `editor play`, `scene info`, `ui_doc`, `test`, `screenshot`, `batch`
-- **Ultra Hera** — light checks by default, stricter Unity verification when the task demands it
-
-</details>
-
-<details>
-<summary><b>🧱 Engineering</b></summary>
-<br>
-
-- Go CLI with Bubble Tea / Lip Gloss TUI pieces, version checks, install/update flows, and cross-platform path handling
-- Unity Editor connector with HTTP routing, heartbeat state, command discovery, asset config UI, and tool registration
-- Tests around command dispatch, doctor/status/update/install paths, client behavior, polling, asset config, HTML-to-UI conversion, and Unity docs tooling
-- Docs emphasize measurable Editor verification, token economy, agent rules, and repeatable benchmark evidence
-
-</details>
-
----
-
-### [Inventoria](https://github.com/NotNull92/Inventoria) — Backpack Defense RPG Prototype
-
-<p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Genre-Backpack_Defense-FF6B6B?style=for-the-badge" alt="Backpack Defense" />
-<img src="https://img.shields.io/badge/Architecture-asmdef_Modules-512BD4?style=for-the-badge" alt="asmdef Modules" />
-<img src="https://img.shields.io/badge/Systems-Grid_%2B_Combat-22C55E?style=for-the-badge" alt="Grid + Combat" />
-<img src="https://img.shields.io/badge/Status-Prototype-FFA500?style=for-the-badge" alt="Prototype" />
-</p>
-
-> A Unity 6 prototype exploring backpack inventory strategy, tower-defense style combat, and modular simulation code.
-
-<details>
-<summary><b>🎒 Gameplay Systems</b></summary>
-<br>
-
-- **Grid Inventory** — item placement, flattening, adjacency, simulation input, stat resolution, and synergy evaluation
-- **Combat Simulation** — battle simulator, wave director, monster runtime, wall system, buffs, damage pipeline, weapon runtime, boss logic, and mana emblems
-- **Loadout Flow** — lobby, gear, loadout, battle, result states with separated panels and controller logic
-- **Progression Services** — save service, reward service, growth service, codex service, shop service, recipe service, and catalog/registry layer
-
-</details>
-
-<details>
-<summary><b>🧩 Recent Work</b></summary>
-<br>
-
-- Shop slots, ad slots, panel isolation, and storage return behavior for the loadout screen
-- Grid-inventory behavior for storage with fixes for duplicate drops, z-order, and multi-cell item sizing
-- Addressables-oriented turret wiring, item icon wiring, battle FX wiring, and editor-side save tools
-- `Game.Core`, `Game.Combat`, `Game.UI`, and `Game.Editor` assembly boundaries for faster iteration
-
-</details>
-
----
-
-### Current Focus
-
-| Track | What I am building | Why it matters |
+| Make it playable | Make it dependable | Make the next change easier |
 |:---|:---|:---|
-| **Game** | `NoMoreRolls` combat, rewards, onboarding, and polish | A complete solo game with a distinct mechanical identity |
-| **Tooling** | `hera-agent-unity` agent verification and Unity automation | Faster, safer Unity iteration for human + AI workflows |
-| **Prototype** | `Inventoria` grid/loadout/combat loop | Rapid design exploration backed by deterministic systems |
+| Turn game rules into controls, combat, rewards, and clear screens. | Reproduce problems, fix them, and check the result in the running game. | Build tools so developers and AI can repeat the work and verify what changed. |
 
----
+**Where I can contribute:** game client development, gameplay and UI systems, editor tools, and AI-assisted development workflows.
 
-## 🤖 AI & Tooling
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## Projects · QUEST LOG
+
+### <img src=".github/assets/icon-monstel.png" height="32" alt="" /> Monstel · A monster hotel that grows with every guest
+
+Match monster guests of the same kind, send them down the elevator, and collect their room fees at the front desk. The money goes back into expanding the hotel and running it better.
+
+I'm building it in **Godot / C#**, from the hotel simulation and screens to the pixel art. Right now I'm working through **Android play feedback, first-time player guidance, and balance**. The hotel completion reward is in, and the game is still in development.
+
+**What this shows:** carrying an idea all the way to a playable mobile game, then fixing the parts real players stumble on.
+
+<img src=".github/assets/shot-monstel-01.png" width="300" alt="Monstel in-game screen: a row of pixel-art monster guests in a hotel room, a construction prompt above, and the lobby with front desk, quest board, and shop below." /><br/>
+<sub>Archived in-development screen · Verified 2026-10-26</sub>
+
+<sub>Private source · In development · Latest remote work: October 25, 2026 · Development tools for the same engine → <a href="https://github.com/NotNull92/hera-agent-godot">Hera for Godot</a></sub>
+
+### <img src=".github/assets/icon-golem.png" height="32" alt="" /> Golem Sculptor · Build your army on a puzzle board
+
+Stack falling stones, match colors, and decide when to turn them into golems. Golems can attack or defend your wall. The hard part is choosing when to spend what you have built up.
+
+This **browser prototype** tests whether puzzle decisions carry over into combat in a way that feels good. Stone sequences can be replayed, so balance changes can be compared under identical conditions. Recent work added golem animation and art.
+
+**What this shows:** checking a game's core idea early, and keeping the rules separate from the presentation.
+
+<img src=".github/assets/shot-golem-01.png" width="300" alt="Golem Sculptor in-game screen: a battlefield with walls and lanes on top, and a puzzle grid below where a purple L-shaped stone piece is placed as a guardian is sent out." /><br/>
+<sub>Archived in-development screen · Verified 2026-10-26</sub>
+
+<sub>Private source · Prototype · [Public game introductions](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
 <details>
-<summary><b>🔧 Measured AI-Assisted Development</b></summary>
-<br>
+<summary><b>More game work · SIDE QUESTS</b></summary>
 
-I use AI agents as execution partners, but the workflow is built around verification:
+**NoMoreRolls · Unity / C# solo game**<br/>
+A dice-combat game where the same roll can lead to a fight or a conversation. I built the combat flow, rewards, saving, a four-language UI, and accessibility settings. The latest remote work is from June 2026.
 
-| Tool | Purpose |
-|------|---------|
-| **Codex / Claude Code** | implementation, refactoring, debugging, review loops |
-| **hera-agent-unity** | live Unity Editor status, console, Play Mode, tests, screenshots |
-| **Git / GitHub** | small commits, reproducible diffs, release notes, issue-backed work |
-| **Obsidian / Notion** | design notes, production checklists, project memory |
+**Inventoria · Unity / C# prototype**<br/>
+A backpack-defense RPG where how you arrange items changes how a battle plays out. I built the inventory, combat simulation, progression, and saving. In August 2026 I added companion hiring and improved battle pacing and text display.
+
+Both source repositories are private. Development tools for the same engine → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
 </details>
 
----
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
-## 🌐 Beyond Code
+## Tools & Engineering · SKILLS
 
-```yaml
-Location: Seoul, South Korea (ex-Sydney, Brisbane, Gold Coast, Cleveland, Australia)
-Languages: Korean (Native) | English (Conversational)
-Hobbies:
-  - Weight Training
-  - Anime & Manga
-  - ETF Investing
-  - Gaming
-Motto: "Measure the system, ship the build."
-```
+In game development, writing the code is only the first step. Someone still has to check that it compiles, that the button works, and that the game behaves as intended.
 
-## 🛠️ Tech Stack
+I build tools that let coding agents do those checks inside the real editor. **I give the AI a clear task, let it work, and ask for evidence of the result.**
 
-[![My Skills](https://skillicons.dev/icons?i=unity,godot,cs,py,go,react,github,git,nodejs,npm,jenkins,md,rider,vscode,notion,obsidian,stackoverflow&theme=dark)](https://skillicons.dev)
+### [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
----
+<img src="https://img.shields.io/github/v/release/NotNull92/hera-agent-unity?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="Hera for Unity latest release" /> <img src="https://img.shields.io/badge/license-Apache--2.0-D9A441?style=flat-square&labelColor=0F1B33" alt="License: Apache-2.0" /> <img src="https://img.shields.io/badge/Unity-6.6%2B-D9A441?style=flat-square&labelColor=0F1B33" alt="Unity 6.6 or newer" />
+
+**Lets an AI inspect, change, run, and test a Unity project.** It can read errors, work with scenes, try keyboard and mouse input, and capture what the game renders, so you spend less time carrying results between the agent and the editor.
+
+Recent releases make edits safer: save only the edited asset where supported, move deleted assets to the trash, and read only the command details needed for the next task.
+
+<sub>Go + C# · [CLI v0.3.23 / Connector 0.2.13](https://github.com/NotNull92/hera-agent-unity/releases/tag/v0.3.23)</sub>
+
+### [Hera for Godot](https://github.com/NotNull92/hera-agent-godot)
+
+<img src="https://img.shields.io/github/v/release/NotNull92/hera-agent-godot?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="Hera for Godot latest release" /> <img src="https://img.shields.io/badge/Godot-4.7%2B-D9A441?style=flat-square&labelColor=0F1B33" alt="Godot 4.7 or newer workflow" />
+
+**Lets an AI build and check a game in the live Godot editor.** It can inspect scenes, edit objects, run scripts, try player input, and check whether the expected result happened.
+
+<a href="https://youtu.be/1YSc7_Q_Djc"><img src=".github/assets/poster-hera-godot.jpg" width="480" alt="Thumbnail of the Hera for Godot demo video with a play button. This is the video thumbnail, not a game screenshot. Opens YouTube." /></a><br/>
+<sub>Demo video thumbnail, not an in-game screen · [Watch on YouTube](https://youtu.be/1YSc7_Q_Djc)</sub>
+
+The latest release trims noisy output and groups related actions. It also notices when an object changed after the agent last read it, so the agent doesn't edit from a stale picture of the scene.
+
+<sub>Go + GDScript / C# · [v2.1.0](https://github.com/NotNull92/hera-agent-godot/releases/tag/v2.1.0) · [Game-building demo](https://youtu.be/1YSc7_Q_Djc)</sub>
+
+### [Hera coding agent](https://github.com/NotNull92/heraAgent)
+
+<img src="https://img.shields.io/badge/status-development%20preview-D9A441?style=flat-square&labelColor=0F1B33" alt="Status: development preview" /> <img src="https://img.shields.io/badge/TypeScript-Windows%20%2F%20macOS-D9A441?style=flat-square&labelColor=0F1B33" alt="TypeScript, Windows and macOS" />
+
+**A terminal app that reads a project, edits files, runs checks, and keeps the conversation going in one place.** It has separate design and development modes, can plan before editing, and can pick up earlier work.
+
+Recent work covers clearer questions, Korean and English interaction, and scrolling through long task histories. It is a **development preview**: the source is public, but there is no published package or GitHub release yet.
+
+<sub>Codex App Server · 0.1.0-alpha.1</sub>
+
+<details>
+<summary><b>How I work with AI</b></summary>
+
+1. **Define the result.** Describe what should change for the player or developer.
+2. **Inspect the current project.** Read the code and check the editor's actual state.
+3. **Make a focused change.** Keep unrelated work intact.
+4. **Run it.** Compile, test, try the relevant interaction, and inspect the screen.
+5. **Report the evidence.** State what passed, what failed, and what still needs checking.
+
+Each repository has release notes, tests, and recorded editor checks from specific verification runs.
+
+</details>
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## Services & Utilities · WORKSHOP
+
+### Ember Platform · See how a game is doing
+
+A shared backend that collects game events, shows player activity and retention, and changes game settings remotely. Account and purchase verification are in development.
+
+Recent work added clearer reports, downloadable metrics, and consistent reporting dates. **The account and purchase features are still being validated in a test environment.**
+
+<sub>Private source · Go / PostgreSQL / TypeScript · Unity and Godot integration</sub>
+
+### [WorkForge](https://github.com/NotNull92/workforge-mcp) · Let ChatGPT work with the real project
+
+<img src="https://img.shields.io/github/v/release/NotNull92/workforge-mcp?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="WorkForge latest release" /> <img src="https://img.shields.io/badge/Windows-release-D9A441?style=flat-square&labelColor=0F1B33" alt="Windows release" />
+
+Connects ChatGPT to local files, Git history, images, and supervised shell commands. Before editing, it checks that the file hasn't changed since it was read. A local dashboard manages the connection and updates.
+
+<sub>[v0.2.9](https://github.com/NotNull92/workforge-mcp/releases/tag/v0.2.9) · macOS source preview · External contribution merged: [PR #4](https://github.com/NotNull92/workforge-mcp/pull/4)</sub>
+
+| Smaller tools for everyday annoyances | What they do |
+|:---|:---|
+| [Hebe for Unity](https://github.com/NotNull92/hebe-agent-unity) | A smaller Unity tool for running code, tests, player input, and screenshots. |
+| [Codex usage tray](https://github.com/NotNull92/codex-weekusage-tray) | Shows the remaining weekly allowance in the Windows taskbar. |
+| [Claude usage tray](https://github.com/NotNull92/claude-weekusage-tray) | Shows remaining usage and reset times without opening another app. |
+| **Yeobaek** · Private | A minimal Android launcher that finds apps using Korean initial consonants, with favorites and recent apps. |
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## Beyond the Screen · OFF DUTY
+
+I like **anime, manga, games, and weight training**. I've been a Venom, Gurren Lagann, and All Might fan for years, which is why their collectibles ended up in the studio illustration above. I want to make games people still think about after the last screen fades, and I care as much about how a game works underneath as about its characters and presentation.
+
+**Characters that stay with me**
+
+- **All Might.** Even wounded and bleeding, he keeps smiling so people won't be afraid, and he refuses to fall while he is the Symbol of Peace. What moves me is how he keeps going back to where he started, saves the world without asking anything for himself, and goes on living by his principles after his power is gone.
+- **Simon from Gurren Lagann.** He starts out as a nobody. When Kamina dies he falls apart, and that grief is what makes him human. He climbs out of it and grows into a leader, and Spiral Power carries the idea that you can become anything and get through anything. The line "Just who do you think I am?" is him reminding himself where he came from.
+- **Venom.** An anti-hero with his own history and his own idea of what is right, who protects the people he can actually reach. I like how distinct he is as a character, and the humor and toughness he shares with All Might.
+
+I live in **Seoul** and have also lived in Australia: Sydney, Brisbane, the Gold Coast, and Cleveland. **Korean is my first language, and I can hold a conversation in English.**
+
+> Make the game. Measure the result. Keep improving.
+
+<details>
+<summary><b>Technical background</b></summary>
+
+| Area | Tools and experience |
+|:---|:---|
+| Game development | Unity, C#, Godot, gameplay, UI, saving, localization, accessibility |
+| Developer tools | Go, TypeScript, editor automation, CLI/TUI, MCP, Git / GitHub |
+| Services | Go, PostgreSQL, event collection, reporting, remote settings |
+| Other applications | C++ / Win32 utilities, Kotlin Android launcher, React portfolio |
+
+</details>
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-fatiger92@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fatiger92@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-NotNull92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotNull92)
+<img src=".github/assets/monogram.svg" width="24" alt="" />
+
+**Let's talk about games, development tools, and the team building them.**
+
+[Email Victor](mailto:fatiger92@gmail.com) · [Portfolio source](https://github.com/NotNull92/portfolio-tui) · [Public projects](https://github.com/NotNull92?tab=repositories)
+
+<sub>Project status checked against remote repositories and releases on October 26, 2026.<br/>Cover and portrait: original AI-generated illustrations, not game screenshots or photographs.</sub>
 
 </div>

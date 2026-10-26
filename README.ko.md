@@ -1,310 +1,202 @@
 <div align="center">
 
-  <img src=".github/assets/tagline-ko.svg" width="100%" alt="저는 마지막 화면이 사라진 후에도 영감을 주고 깊이 공감하며 사람들과 함께할 수 있는 게임을 만듭니다." />
+<img src=".github/assets/studio-cover.jpg" width="100%" alt="서울의 저녁을 배경으로 Victor가 앉아 있는 애니메이션풍 작업실. 모니터에는 올마이트의 전투 스케치가, 책상과 선반에는 베놈·그렌라간·올마이트 소품이 놓여 있습니다." />
 
-  <br/>
+# Victor · NotNull92
 
-  <!-- Profile Views + Badges -->
-  <img src="https://komarev.com/ghpvc/?username=NotNull92&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/%EA%B2%BD%ED%97%98-6%EB%85%84%2B-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
-  <img src="https://img.shields.io/badge/%EB%A7%A4%EC%B6%9C-%EC%97%B0400%EC%96%B5%2B-22C55E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%EB%8F%84%EB%A9%94%EC%9D%B8-Live--Service%20MMORPG-FF6B6B?style=for-the-badge" />
+### 오래 기억되는 게임과, 그 게임을 더 잘 만드는 도구를 만듭니다.
 
-  <br/><br/>
+게임 개발자 · Unity / C# · Godot · AI 개발 도구<br/>
+서울, 대한민국
 
-  <!-- Language Switch -->
-  [🇬🇧 English](README.md)
+[이메일 보내기](mailto:fatiger92@gmail.com) · [English](README.md) · [포트폴리오](https://portfolio-tui-ten.vercel.app/?direct) · [Ember Studio](https://github.com/NotNull92/NotNull92.github.io)
 
 </div>
 
----
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
-<!-- Activity Graph -->
-<div align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=NotNull92&theme=high-contrast&hide_border=true&area=true&area_color=58A6FF" alt="Activity Graph" />
-  </a>
-</div>
+## 개발자 소개 · PROFILE
 
-<!-- Stats Row -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=NotNull92&theme=default&hide_border=true" alt="GitHub Streak" />
-  </a>
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-    <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NotNull92&theme=github&hide_border=true" alt="GitHub Stats" />
-  </a>
-</p>
+<img src=".github/assets/portrait-victor.png" width="120" align="left" hspace="12" vspace="4" alt="Victor의 2D 초상. 차콜 재킷을 입고 오른쪽을 바라보는 흉상 일러스트." />
 
-<!-- Languages Row -->
-<p align="center">
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-    <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Repos per Language" />
-    <img height="170" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NotNull92&theme=github&exclude=JavaScript&hide_border=true" alt="Most Commit Language" />
-  </a>
-</p>
+블루포션 게임즈와 Banco Games에서 **6년 이상 모바일 MMORPG를 개발하고 운영해 온 게임 개발자**입니다. 전투와 콘텐츠, 플레이어가 보는 화면, 서버 통신, 그리고 서비스 중에 생기는 문제를 고치는 일을 맡았습니다. **연 매출 400억 원 이상을 기록한 프로젝트의 개발에 참여**했습니다.
 
-<!-- Productive Time -->
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NotNull92&theme=gruvbox&utcOffset=9&hide_border=true" alt="Productive Time" />
-</p>
+지금은 그 경험을 개인 게임과 공개 개발 도구로 넓히고 있습니다. **게임을 만드는 일, 만드는 과정을 개선하는 일, 운영에 필요한 기능을 만드는 일**을 함께 하고 있습니다.
 
----
+**현재 (2026년 10월):** Monstel Android 플레이 피드백 반영 · Hera for Unity v0.3.23 · Hera coding agent 개발 프리뷰
 
-## 👤 소개
+**함께 일한 팀 · PARTY:** 블루포션 게임즈와 Banco Games에서 기획·아트·QA·서버·운영 담당자와 함께 기능을 만들어 실제 서비스에 넣었습니다. Hera와 WorkForge는 공개 저장소로 이슈와 풀 리퀘스트를 받고 있으며, WorkForge에는 2026년 8월 외부 기여자의 [macOS 대시보드 이식 (PR #4)](https://github.com/NotNull92/workforge-mcp/pull/4)을 병합했습니다.
 
-> **Victor** — 서울, 대한민국 🇰🇷 | 과거 거주: 시드니, 브리즈번, 골드코스트, 클리블랜드, 호주 🇦🇺
+<br clear="left" />
 
-라이브 서비스 모바일 MMORPG 프로덕션에서 **6년 이상** 일해 온 Unity/C# 엔지니어입니다. 게임플레이 시스템, 에디터 툴링, UI 플로우, 그리고 정적 코드 추측이 아니라 실제 Unity Editor에서 측정하는 AI-assisted Unity 파이프라인을 만듭니다.
-
-- 🏢 **프로덕션** — 매출 규모가 있는 MMORPG 라이브 서비스 시스템 출시 및 유지보수
-- 🎲 **솔로 게임** — 폭력, 공감, 결과를 주사위 전투로 다루는 [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls) 개발
-- 🛠️ **툴링** — AI 코딩 에이전트를 위한 저토큰 Unity 제어 계층 [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity) 개발
-- 🎒 **프로토타입 랩** — 결정론적 시뮬레이션 기반 백팩 디펜스 RPG [Inventoria](https://github.com/NotNull92/Inventoria) 개발
-
----
-
-## 💼 경력
-
-<table>
-<tr>
-<th width="33%" align="center">🏰 라이브 서비스 MMORPG</th>
-<th width="33%" align="center">💰 매출 실적</th>
-<th width="33%" align="center">🚀 핵심 역량</th>
-</tr>
-<tr>
-<td valign="top">
-
-**라이브 서비스 시스템**
-
-- Unity/C# 게임플레이 및 콘텐츠 구현
-- 반복 운영을 고려한 UI/UX 시스템 개발
-- 네트워크 프로토콜 구현 및 프로덕션 디버깅
-- 핫픽스와 안정성을 고려한 라이브 서비스 개발
-
-</td>
-<td valign="top">
-
-**매출 규모 프로덕션**
-
-- **연 매출 400억 원 이상** 프로젝트에 기여
-- 블루포션 게임즈 / 반코에서 출시 및 유지보수
-- 기능 개발, 안정성, 라이브 운영 압박 사이의 균형
-- 기획, 아트, QA, 백엔드, 운영 조직과 협업
-
-</td>
-<td valign="top">
-
-**빌더 프로필**
-
-- 게임 디자인을 유지보수 가능한 런타임 시스템으로 변환
-- 에이전트 툴링으로 Unity 반복 작업 루프 단축
-- 추측보다 실제 Editor 검증을 선호
-- 개인 프로젝트에도 프로덕션 습관 적용
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎮 프로젝트
-
-### [NoMoreRolls](https://github.com/NotNull92/NoMoreRolls) — 솔로 게임
-
-<p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Genre-Roguelike_(Dice_Based)-FF6B6B?style=for-the-badge" alt="Roguelike" />
-<img src="https://img.shields.io/badge/Platform-Steam_(PC)-1B2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
-<img src="https://img.shields.io/badge/Team-Solo_Dev-FFA500?style=for-the-badge" alt="Solo Dev" />
-<img src="https://img.shields.io/badge/Status-Active_Polish-22C55E?style=for-the-badge" alt="Active Polish" />
-</p>
-
-> 같은 주사위 굴림이 폭력 또는 공감으로 바뀌는 다이스 포커 전투.
-> 전투 로직, UI 연출, 로컬라이징, 접근성, 저장, 에디터 자동화까지 혼자 끝까지 밀고 있는 Unity 프로젝트입니다.
-
-<details>
-<summary><b>⚔️ 핵심 시스템</b></summary>
-<br>
-
-- **주사위 전투** — 10단계 패 판정, 리롤 경제, 피해/공감 이중 해석, 적 약점 퍼즐
-- **Fight / Talk 루트** — 하나의 주사위 루프가 공격 결과 또는 공감 조건으로 분기
-- **전투 FSM** — intro, route select, dice, hand select, resolve, reward, defeat, turn-end 상태를 클래스로 분리
-- **Soul Gimmick** — Bell, Ember, Gavel, Hollow, Palette, Phonograph, Roulette, Scribe, Seven, The Dealer를 handler/factory 구조로 구현
-- **런 구조** — 복도 진행, 휴식/이벤트 노드, memory fragment, cross-run 저장, meta event, true ending 해금
-- **로컬라이징 & 접근성** — KO/EN/JA/RU UI 번역, 모션 감소, 색맹 오버레이, 시각적 사운드 표시, 폰트 스케일링
-
-</details>
-
-<details>
-<summary><b>🎨 UI / 게임 feel</b></summary>
-<br>
-
-- 핸드 선택, 리롤, 루트 선택, 보상 패널, 전투 가이드를 한 HUD 안에서 관리
-- popup, icon flight, hit flash, screen overlay, enemy expression 변경으로 공격 피드백 연출
-- 주사위 패, 보상 스탯, 적 약점, 기믹 설명을 툴팁과 가이드로 온보딩
-- 보상 UI 단순화, 인벤토리 갱신, 아이콘 가독성, 대화/컨트롤 마찰을 최근에 집중 개선
-
-</details>
-
-<details>
-<summary><b>🔄 최근 작업</b></summary>
-<br>
-
-- 전투 보상 UI 단순화 및 인벤토리/아이콘 갱신 동작 개선
-- `GameContext` emotion gauge 이벤트화와 dialogue sequence 유틸 정리
-- ScriptableObject 생성 헬퍼와 player stat copy 흐름 통합
-- reaction caption, high dice 용어, pause/dialogue/name-input UX, reward stat tooltip 개선
-- 프로젝트 manifest에 `hera-agent-unity`를 넣고 live Editor 검증 기반 에이전트 개발 루프 적용
-
-</details>
-
-<details>
-<summary><b>🛠️ 기술 스택</b></summary>
-<br>
-
-<p>
-<img src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/DOTween-E84C3D?style=flat-square" alt="DOTween" />
-<img src="https://img.shields.io/badge/Odin_Inspector-1E90FF?style=flat-square" alt="Odin Inspector" />
-<img src="https://img.shields.io/badge/UniTask-6C5CE7?style=flat-square" alt="UniTask" />
-<img src="https://img.shields.io/badge/Hermes_Agent-FF6B6B?style=flat-square&logo=nousresearch&logoColor=white" alt="Hermes Agent" />
-<img src="https://img.shields.io/badge/Claude_Code_CLI-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code CLI" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square" alt="Obsidian" />
-</p>
-
-</details>
-
----
-
-### [hera-agent-unity](https://github.com/NotNull92/hera-agent-unity) — 오픈소스 Unity Agent CLI
-
-<p align="center">
-<img src="https://img.shields.io/badge/CLI-Go_1.25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Unity-2022.3%2B-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Package-C%23_Editor-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" />
-<img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" alt="Active" />
-</p>
-
-> AI 코딩 에이전트를 위한 저토큰 Unity Editor 제어 도구.
-> Codex, Claude, Cursor, Copilot 같은 에이전트가 실제 Unity Editor에서 status, console, C# 실행, Play Mode, scene inspection, UI capture, test, screenshot을 검증하게 합니다.
-
-<details>
-<summary><b>🚀 릴리스 하이라이트</b></summary>
-<br>
-
-- **Unity 버전 커버리지** — Unity 2022.3 LTS, 2023.2, 6000.3, 6000.5를 별도 검증
-- **토큰 절약 프로토콜** — benchmark docs 기준 compact tool list 93 tokens, object ID handoff 49-55 tokens
-- **서버 설정 없음** — Go 바이너리 하나와 Unity 패키지; Python 서버나 생성된 MCP 설정 불필요
-- **에이전트 명령어** — `status`, `doctor`, `list --compact`, `console`, `exec`, `editor play`, `scene info`, `ui_doc`, `test`, `screenshot`, `batch`
-- **Ultra Hera** — 기본은 가볍게 확인하고 중요한 작업은 더 엄격한 Unity 검증으로 승격
-
-</details>
-
-<details>
-<summary><b>🧱 엔지니어링</b></summary>
-<br>
-
-- Bubble Tea / Lip Gloss 기반 TUI 요소, version check, install/update 흐름, 크로스 플랫폼 path 처리
-- HTTP routing, heartbeat state, command discovery, asset config UI, tool registration을 가진 Unity Editor connector
-- command dispatch, doctor/status/update/install, client, polling, asset config, HTML-to-UI, Unity docs tooling 테스트
-- 실제 Editor 검증, 토큰 경제, agent rules, 반복 가능한 benchmark evidence 중심 문서화
-
-</details>
-
----
-
-### [Inventoria](https://github.com/NotNull92/Inventoria) — 백팩 디펜스 RPG 프로토타입
-
-<p align="center">
-<img src="https://img.shields.io/badge/Engine-Unity_6-222?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/Genre-Backpack_Defense-FF6B6B?style=for-the-badge" alt="Backpack Defense" />
-<img src="https://img.shields.io/badge/Architecture-asmdef_Modules-512BD4?style=for-the-badge" alt="asmdef Modules" />
-<img src="https://img.shields.io/badge/Systems-Grid_%2B_Combat-22C55E?style=for-the-badge" alt="Grid + Combat" />
-<img src="https://img.shields.io/badge/Status-Prototype-FFA500?style=for-the-badge" alt="Prototype" />
-</p>
-
-> 백팩 인벤토리 전략, 타워디펜스형 전투, 모듈형 시뮬레이션 코드를 실험하는 Unity 6 프로토타입입니다.
-
-<details>
-<summary><b>🎒 게임플레이 시스템</b></summary>
-<br>
-
-- **Grid Inventory** — item placement, flattening, adjacency, simulation input, stat resolution, synergy evaluation
-- **Combat Simulation** — battle simulator, wave director, monster runtime, wall system, buff, damage pipeline, weapon runtime, boss logic, mana emblem
-- **Loadout Flow** — lobby, gear, loadout, battle, result 상태와 panel/controller 분리
-- **Progression Services** — save, reward, growth, codex, shop, recipe, catalog/registry layer
-
-</details>
-
-<details>
-<summary><b>🧩 최근 작업</b></summary>
-<br>
-
-- 상점 슬롯, 광고 슬롯, 패널 격리, 보관함 복귀 동작 등 loadout screen 개선
-- 보관함 grid inventory화, duplicate drop, z-order, multi-cell item sizing 이슈 수정
-- Addressables 기반 turret wiring, item icon wiring, battle FX wiring, editor save tools
-- `Game.Core`, `Game.Combat`, `Game.UI`, `Game.Editor` assembly 경계로 반복 작업 속도 개선
-
-</details>
-
----
-
-### 현재 집중하고 있는 것
-
-| 트랙 | 만들고 있는 것 | 중요한 이유 |
+| 플레이할 수 있게 | 믿고 쓸 수 있게 | 다음 작업이 쉬워지게 |
 |:---|:---|:---|
-| **게임** | `NoMoreRolls` 전투, 보상, 온보딩, 폴리싱 | 독자적인 기계적 정체성을 가진 완성형 솔로 게임 |
-| **툴링** | `hera-agent-unity` 에이전트 검증과 Unity 자동화 | 사람 + AI Unity 개발 루프를 더 빠르고 안전하게 만듦 |
-| **프로토타입** | `Inventoria` grid/loadout/combat loop | 결정론적 시스템 위에서 빠른 디자인 실험 |
+| 게임 규칙을 조작, 전투, 보상, 이해하기 쉬운 화면으로 만듭니다. | 문제를 재현하고 수정한 뒤, 실제 실행 결과를 확인합니다. | 사람과 AI가 작업을 반복하고 결과를 확인할 수 있는 도구를 만듭니다. |
 
----
+**팀에서 기여할 수 있는 일:** 게임 클라이언트 개발, 전투·콘텐츠·UI 구현, 에디터 도구, AI를 활용한 개발 과정 개선.
 
-## 🤖 AI & 툴
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## 프로젝트 기록 · QUEST LOG
+
+### <img src=".github/assets/icon-monstel.png" height="32" alt="" /> Monstel · 손님 한 명부터 자라는 괴물 호텔
+
+같은 종족의 괴물 손님을 연결해 엘리베이터로 보내고, 프런트에서 숙박비를 받습니다. 번 돈으로 호텔을 넓히고 손님을 더 잘 맞이할 수 있게 개선해 나가는 게임입니다.
+
+<strong>Godot / C#</strong>으로 호텔이 돌아가는 규칙부터 화면과 픽셀 아트까지 직접 만들고 있습니다. 지금은 **Android 플레이 피드백, 처음 하는 사람을 위한 안내, 난이도와 성장 속도 조정**을 다듬고 있습니다. 호텔 완공 보상까지 구현했고, 게임은 아직 개발 중입니다.
+
+**이 프로젝트에서 하는 일:** 아이디어를 휴대폰에서 돌아가는 게임으로 만들고, 실제로 플레이하면서 불편한 부분을 다듬습니다.
+
+<img src=".github/assets/shot-monstel-01.png" width="300" alt="Monstel 게임 화면. 객실에 픽셀 아트 괴물 손님들이 줄지어 있고, 위에는 건설 안내가, 아래에는 프런트·직원 게시판·퀘스트·상점이 있는 로비가 보입니다." /><br/>
+<sub>개발 중 보관 화면 · 2026-10-26 자료 확인</sub>
+
+<sub>비공개 소스 · 개발 중 · 최근 원격 작업: 2026년 10월 25일 · 같은 엔진을 위한 개발 도구 → <a href="https://github.com/NotNull92/hera-agent-godot">Hera for Godot</a></sub>
+
+### <img src=".github/assets/icon-golem.png" height="32" alt="" /> Golem Sculptor · 퍼즐판 위에서 만드는 골렘 군대
+
+떨어지는 돌을 쌓고 같은 색을 모으면 골렘이 됩니다. 골렘을 내보내 공격하거나 내 성벽을 지키게 할 수 있습니다. 더 모을지 지금 쓸지 고르는 것이 이 게임의 핵심 선택입니다.
+
+퍼즐에서 한 선택이 전투로 이어지는 재미를 **브라우저 프로토타입**으로 실험하고 있습니다. 같은 돌 순서를 다시 재생할 수 있어 조정 전후를 같은 조건에서 비교할 수 있고, 최근에는 골렘 애니메이션과 아트를 넣었습니다.
+
+**이 프로젝트에서 하는 일:** 핵심 재미를 먼저 확인하고, 게임 규칙과 화면 표현을 분리해서 개선합니다.
+
+<img src=".github/assets/shot-golem-01.png" width="300" alt="Golem Sculptor 게임 화면. 위쪽은 성벽과 진로가 있는 전장, 아래쪽은 보라색 L자 돌 조각이 놓인 퍼즐판이며 가디언 출진 문구가 표시됩니다." /><br/>
+<sub>개발 중 보관 화면 · 2026-10-26 자료 확인</sub>
+
+<sub>비공개 소스 · 프로토타입 · [공개 게임 소개](https://github.com/NotNull92/NotNull92.github.io/blob/main/assets/project-records.js)</sub>
 
 <details>
-<summary><b>🔧 측정 기반 AI-assisted 개발</b></summary>
-<br>
+<summary><b>다른 게임 작업 · SIDE QUESTS</b></summary>
 
-AI 에이전트를 실행 파트너로 쓰되, 워크플로우의 중심은 검증입니다:
+**NoMoreRolls · Unity / C# 솔로 게임**<br/>
+같은 주사위 결과로 싸울 수도, 대화할 수도 있는 전투 게임입니다. 전투 흐름, 보상, 저장, 4개 언어 UI, 접근성 설정을 만들었습니다. 원격 저장소의 마지막 작업은 2026년 6월입니다.
 
-| 도구 | 용도 |
-|------|------|
-| **Codex / Claude Code** | 구현, 리팩터링, 디버깅, 리뷰 루프 |
-| **hera-agent-unity** | live Unity Editor status, console, Play Mode, test, screenshot |
-| **Git / GitHub** | 작은 커밋, 재현 가능한 diff, 릴리스 노트, 이슈 기반 작업 |
-| **Obsidian / Notion** | 설계 노트, 프로덕션 체크리스트, 프로젝트 메모리 |
+**Inventoria · Unity / C# 프로토타입**<br/>
+가방에 아이템을 어떻게 놓느냐에 따라 전투가 달라지는 백팩 디펜스 RPG입니다. 인벤토리, 전투 계산, 성장, 저장을 만들었고, 2026년 8월에는 동료 고용을 추가하고 전투 속도와 글자 표시를 개선했습니다.
+
+두 프로젝트의 소스는 비공개입니다. 같은 엔진을 위한 개발 도구 → [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
 </details>
 
----
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
-## 🌐 코드 외의 삶
+## 기술과 구현 경험 · SKILLS
 
-```yaml
-위치: 서울, 대한민국 (과거 거주: 시드니, 브리즈번, 골드코스트, 클리블랜드, 호주)
-언어: 한국어 (원어민) | 영어 (일상대화)
-취미:
-  - 웨이트 트레이닝
-  - 애니메이션 & 만화
-  - ETF 투자
-  - 게임
-좌우명: "시스템을 측정하고, 빌드를 낸다."
-```
+게임 개발은 코드를 쓰는 데서 끝나지 않습니다. 실행되는지, 버튼이 눌리는지, 의도한 대로 움직이는지 누군가는 확인해야 합니다.
 
-## 🛠️ 기술 스택
+저는 AI 코딩 도구가 실제 게임 에디터 안에서 이 확인까지 직접 하도록 돕는 도구를 개발합니다. **할 일을 분명히 정하고, AI가 작업하게 한 뒤, 실행 결과로 확인하는 방식**입니다.
 
-[![My Skills](https://skillicons.dev/icons?i=unity,godot,cs,py,go,react,github,git,nodejs,npm,jenkins,md,rider,vscode,notion,obsidian,stackoverflow&theme=dark)](https://skillicons.dev)
+### [Hera for Unity](https://github.com/NotNull92/hera-agent-unity)
 
----
+<img src="https://img.shields.io/github/v/release/NotNull92/hera-agent-unity?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="Hera for Unity 최신 릴리스" /> <img src="https://img.shields.io/badge/license-Apache--2.0-D9A441?style=flat-square&labelColor=0F1B33" alt="라이선스: Apache-2.0" /> <img src="https://img.shields.io/badge/Unity-6.6%2B-D9A441?style=flat-square&labelColor=0F1B33" alt="Unity 6.6 이상" />
+
+**AI가 Unity 프로젝트를 읽고, 고치고, 실행하고, 테스트할 수 있게 합니다.** 오류를 읽고, 씬을 바꾸고, 키보드와 마우스 입력을 시험하고, 결과 화면을 확인합니다. 개발자가 AI와 에디터 사이에서 결과를 일일이 전달하는 일이 줄어듭니다.
+
+최근에는 지원되는 작업에서 수정한 파일만 저장하고, 삭제한 파일은 휴지통으로 보내고, 다음 작업에 필요한 명령 설명만 읽도록 개선했습니다.
+
+<sub>Go + C# · [CLI v0.3.23 / Connector 0.2.13](https://github.com/NotNull92/hera-agent-unity/releases/tag/v0.3.23)</sub>
+
+### [Hera for Godot](https://github.com/NotNull92/hera-agent-godot)
+
+<img src="https://img.shields.io/github/v/release/NotNull92/hera-agent-godot?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="Hera for Godot 최신 릴리스" /> <img src="https://img.shields.io/badge/Godot-4.7%2B-D9A441?style=flat-square&labelColor=0F1B33" alt="Godot 4.7 이상 작업 환경" />
+
+**AI가 실행 중인 Godot 에디터 안에서 게임을 만들고 확인합니다.** 씬과 오브젝트를 살펴보고 고치고, 코드를 실행하고, 플레이어 입력을 시험하고, 기대한 결과가 나왔는지 확인합니다.
+
+<a href="https://youtu.be/1YSc7_Q_Djc"><img src=".github/assets/poster-hera-godot.jpg" width="480" alt="Hera for Godot 데모 영상 썸네일에 재생 버튼이 올려진 이미지. 게임 실제 화면이 아닌 영상 썸네일이며, 클릭하면 YouTube로 이동합니다." /></a><br/>
+<sub>데모 영상 썸네일이며 게임 실제 화면이 아닙니다 · [YouTube에서 보기](https://youtu.be/1YSc7_Q_Djc)</sub>
+
+최신 버전은 불필요한 응답을 줄이고 관련 작업을 한 번에 묶어 처리합니다. AI가 마지막으로 읽은 뒤 대상이 바뀌었는지도 확인해서, 오래된 정보로 수정하는 일을 막습니다.
+
+<sub>Go + GDScript / C# · [v2.1.0](https://github.com/NotNull92/hera-agent-godot/releases/tag/v2.1.0) · [게임 제작 데모](https://youtu.be/1YSc7_Q_Djc)</sub>
+
+### [Hera coding agent](https://github.com/NotNull92/heraAgent)
+
+<img src="https://img.shields.io/badge/status-development%20preview-D9A441?style=flat-square&labelColor=0F1B33" alt="상태: 개발 프리뷰" /> <img src="https://img.shields.io/badge/TypeScript-Windows%20%2F%20macOS-D9A441?style=flat-square&labelColor=0F1B33" alt="TypeScript, Windows와 macOS" />
+
+**프로젝트를 읽고, 파일을 고치고, 검사를 실행하고, 이어서 대화하는 일을 한 화면에서 하는 터미널 앱**입니다. 설계 모드와 개발 모드를 나누고, 수정 전에 계획을 세우거나 이전 작업을 이어갈 수 있습니다.
+
+최근에는 질문에 답하는 화면, 한국어·영어 사용 흐름, 긴 작업 기록을 읽는 스크롤을 개선했습니다. 지금은 **개발 프리뷰** 단계로, 소스는 공개되어 있지만 설치 패키지와 GitHub 릴리스는 아직 없습니다.
+
+<sub>Codex App Server · 0.1.0-alpha.1</sub>
+
+<details>
+<summary><b>AI와 함께 일하는 방식</b></summary>
+
+1. **결과를 정합니다.** 플레이어나 개발자에게 무엇이 달라져야 하는지 적습니다.
+2. **현재 상태를 읽습니다.** 코드와 실제 에디터 상태를 확인합니다.
+3. **필요한 부분을 고칩니다.** 다른 작업에 영향을 주지 않도록 변경 범위를 좁힙니다.
+4. **실행합니다.** 컴파일, 테스트, 실제 조작, 화면 확인을 수행합니다.
+5. **근거를 남깁니다.** 통과한 항목, 실패한 항목, 아직 확인하지 못한 부분을 구분합니다.
+
+공개 저장소의 릴리스 노트, 테스트, 에디터 검증 기록은 각 실행에서 실제로 확인한 결과입니다.
+
+</details>
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## 운영과 도구 · WORKSHOP
+
+### Ember Platform · 게임이 어떻게 운영되는지 볼 수 있게
+
+게임에서 일어나는 일을 모으고, 이용 현황과 재방문 비율을 보고, 게임 설정을 원격으로 바꾸는 공통 서버입니다. 계정과 결제 확인 기능은 개발 중입니다.
+
+최근에는 읽기 쉬운 보고서, 지표 다운로드, 날짜 기준을 맞춘 집계를 추가했습니다. **계정·결제 기능은 테스트 환경에서 검증하는 중입니다.**
+
+<sub>비공개 소스 · Go / PostgreSQL / TypeScript · Unity·Godot 연동</sub>
+
+### [WorkForge](https://github.com/NotNull92/workforge-mcp) · ChatGPT가 실제 프로젝트와 일하게
+
+<img src="https://img.shields.io/github/v/release/NotNull92/workforge-mcp?style=flat-square&labelColor=0F1B33&color=D9A441&label=release" alt="WorkForge 최신 릴리스" /> <img src="https://img.shields.io/badge/Windows-release-D9A441?style=flat-square&labelColor=0F1B33" alt="Windows 배포판" />
+
+ChatGPT가 내 컴퓨터의 파일, 변경 기록, 이미지를 읽고, 확인을 거쳐 명령을 실행할 수 있게 연결합니다. 수정 전에는 파일이 처음 읽었을 때와 같은지 확인합니다. 연결과 업데이트는 별도 관리 화면에서 다룹니다.
+
+<sub>[v0.2.9](https://github.com/NotNull92/workforge-mcp/releases/tag/v0.2.9) · macOS 소스 프리뷰 · 외부 기여 병합: [PR #4](https://github.com/NotNull92/workforge-mcp/pull/4)</sub>
+
+| 일상에서 필요해서 만든 작은 도구 | 하는 일 |
+|:---|:---|
+| [Hebe for Unity](https://github.com/NotNull92/hebe-agent-unity) | 코드 실행, 테스트, 플레이 입력, 화면 캡처에 집중한 작은 Unity 도구입니다. |
+| [Codex 사용량 트레이](https://github.com/NotNull92/codex-weekusage-tray) | Windows 작업 표시줄에서 남은 주간 사용량을 보여 줍니다. |
+| [Claude 사용량 트레이](https://github.com/NotNull92/claude-weekusage-tray) | 다른 앱을 열지 않아도 남은 사용량과 초기화 시각을 볼 수 있습니다. |
+| **여백** · 비공개 | 한글 초성으로 앱을 찾고, 즐겨찾기와 최근 앱을 이용하는 간결한 Android 런처입니다. |
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
+
+## 화면 뒤의 사람 · OFF DUTY
+
+**애니메이션, 만화, 게임, 웨이트 트레이닝**을 좋아합니다. 베놈, 그렌라간, 올마이트는 오랫동안 좋아해 온 작품이라 위 작업실 일러스트에도 소장품으로 넣었습니다. 마지막 화면이 꺼진 뒤에도 생각나는 게임을 만들고 싶고, 캐릭터와 연출만큼 게임이 안에서 어떻게 돌아가는지에도 관심이 많습니다.
+
+**마음에 남는 캐릭터**
+
+- **올마이트.** 다치고 피를 흘리면서도 웃는 얼굴로 사람들의 불안을 걷어내고, 평화의 상징으로서 쓰러지지 않습니다. 자신의 원점을 돌아보며 남을 위해 세상을 구하고, 힘을 잃은 뒤에도 윤리를 지키며 살아가는 모습에 감동받았습니다.
+- **그렌라간의 시몬.** 보잘것없이 시작하고, 카미나를 잃고는 슬픔에 무너지는 인간적인 모습이 있습니다. 그 고난을 딛고 리더로 성장하는 과정, 그리고 나선력이 보여 주는 무엇이든 될 수 있고 해결할 수 있다는 가능성이 좋습니다. "내가 누구라고 생각하느냐"는 말로 자신의 원점을 되새기는 장면이 특히 기억에 남습니다.
+- **베놈.** 안티히어로지만 자신만의 사연과 옳다고 믿는 정의가 있고, 자신이 지킬 수 있는 범위의 사람들을 지킵니다. 독특한 개성, 그리고 올마이트와도 통하는 유머와 강인함이 좋습니다.
+
+지금은 **서울**에 살고 있고, 호주의 시드니, 브리즈번, 골드코스트, 클리블랜드에서도 살았습니다. **한국어가 모국어이고, 영어로 일상 대화가 가능합니다.**
+
+> 게임을 만들고, 결과를 확인하고, 계속 개선합니다.
+
+<details>
+<summary><b>기술 배경 자세히 보기</b></summary>
+
+| 분야 | 사용하는 기술과 경험 |
+|:---|:---|
+| 게임 개발 | Unity, C#, Godot, 전투·콘텐츠·UI, 저장, 다국어, 접근성 |
+| 개발 도구 | Go, TypeScript, 에디터 자동화, CLI/TUI, MCP, Git / GitHub |
+| 서버 | Go, PostgreSQL, 이벤트 수집, 지표, 원격 설정 |
+| 기타 앱 | C++ / Win32 유틸리티, Kotlin Android 런처, React 포트폴리오 |
+
+</details>
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-fatiger92@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fatiger92@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-NotNull92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotNull92)
+<img src=".github/assets/monogram.svg" width="24" alt="" />
+
+**게임과 개발 도구, 그리고 함께 만들 팀에 관해 이야기하고 싶습니다.**
+
+[이메일 보내기](mailto:fatiger92@gmail.com) · [포트폴리오 소스](https://github.com/NotNull92/portfolio-tui) · [공개 프로젝트](https://github.com/NotNull92?tab=repositories)
+
+<sub>프로젝트 현황 확인: 2026년 10월 26일 · 원격 저장소와 릴리스 기준<br/>배너와 초상은 AI로 제작한 오리지널 일러스트이며, 실제 게임 화면이나 사진이 아닙니다.</sub>
 
 </div>
